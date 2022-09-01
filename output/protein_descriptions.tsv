@@ -1,0 +1,657 @@
+accno	description	Localization
+Q9LAN9_ECO57	Putative tellurium resistance protein B OS=Escherichia coli O157:H7 OX=83334 GN=tlrB PE=4 SV=1 UPId=UP000000558 PPId=UP000000625	Cytoplasmic
+A0A1Q8MFV9_SHIBO	Cystine ABC transporter substrate-binding protein OS=Shigella boydii OX=621 GN=tcyJ PE=3 SV=1 UPId=UP000515238 PPId=UP000000625	Periplasmic
+A0A2B7LV60_9ESCH	Ribosome-recycling factor OS=Escherichia marmotae OX=1499973 GN=frr PE=3 SV=1 UPId=UP000254454 PPId=UP000000625	Cytoplasmic
+Q9JN24_ECOLX	Peptide deformylase OS=Escherichia coli OX=562 GN=def PE=3 SV=1 UPId=UP000298444 PPId=UP000000625	Cytoplasmic
+Q08JA8_ECOLX	Aminoglycoside 3'-phosphotransferase OS=Escherichia coli OX=562 GN=aph PE=3 SV=1 UPId=UP000297379 PPId=UP000000625	Cytoplasmic
+A0A2X1JFU5_ECOLX	Protein GlcG OS=Escherichia coli OX=562 GN=glcG_1 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Unknown
+A0A8G9PR42_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=ELT45_09965 PE=4 SV=1 UPId=UP000297367 PPId=UP000000625	Cytoplasmic
+A0A377MT69_ECOLX	DNA-directed RNA polymerase subunit alpha OS=Escherichia coli OX=562 GN=rpoA PE=3 SV=1 UPId=UP000254870 PPId=UP000000625	Cytoplasmic
+A0A660GL98_ECOLX	Adenylate kinase OS=Escherichia coli OX=562 GN=adk PE=3 SV=1 UPId=UP000297611 PPId=UP000000625	Cytoplasmic
+A0A061K0K9_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=BON84_25050 PE=4 SV=1 UPId=UP000315129 PPId=UP000000625	Unknown
+A0A6D0ZJT8_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=G3565_05695 PE=4 SV=1 UPId=UP000490727 PPId=UP000000625	Unknown
+A0A827E0G2_ECOLX	Tryptophanase OS=Escherichia coli OX=562 GN=CX692_001784 PE=4 SV=1 UPId=UP000590860 PPId=UP000000625	Cytoplasmic
+A0A6H3MLA3_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=E5S35_23465 PE=4 SV=1 UPId=UP000297611 PPId=UP000000625	Unknown
+A0A376KP04_ECOLX	Ferredoxin OS=Escherichia coli OX=562 GN=fdx_2 PE=4 SV=1 UPId=UP000304338 PPId=UP000000625	Unknown
+A0A3F3NS62_ECOLX	Serum resistance lipoprotein Bor (Fragment) OS=Escherichia coli OX=562 GN=bor PE=4 SV=1 UPId=UP000252744 PPId=UP000000625	Unknown
+A0A2X1PJ38_ECOLX	Porphobilinogen deaminase OS=Escherichia coli OX=562 GN=hemC_2 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Cytoplasmic
+A0A2X3KDR7_ECOLX	3-oxoacyl-ACP synthase OS=Escherichia coli OX=562 GN=fabH_2 PE=4 SV=1 UPId=UP000277930 PPId=UP000000625	Cytoplasmic
+A0A827JYP9_ECOLX	SIR2 family protein OS=Escherichia coli OX=562 GN=BR331_14835 PE=4 SV=1 UPId=UP000532209 PPId=UP000000625	Unknown
+A0A376W675_ECOLX	Glucose-specific PTS system EIIA component OS=Escherichia coli OX=562 GN=crr_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Cytoplasmic
+A0A2B7LL68_9ESCH	Citrate synthase OS=Escherichia marmotae OX=1499973 GN=gltA PE=3 SV=1 UPId=UP000254454 PPId=UP000000625	Cytoplasmic
+A0A5E9YLK3_ECOLX	Methionyl-tRNA formyltransferase OS=Escherichia coli OX=562 GN=ACN68_28035 PE=4 SV=1 UPId=UP000298119 PPId=UP000000625	Cytoplasmic
+A0A2S4A2I2_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=BOH76_11230 PE=4 SV=1 UPId=UP000298215 PPId=UP000000625	Cytoplasmic
+U5KKK2_ECOLX	FinQ OS=Escherichia coli OX=562 GN=finQ PE=4 SV=1 UPId=UP000281521 PPId=UP000000625	Cytoplasmic
+U9Y675_ECOLX	Antigen 43 domain protein (Fragment) OS=Escherichia coli 113290 OX=1268976 GN=HMPREF1589_04327 PE=4 SV=1 UPId=UP000017268 PPId=UP000000625	Unknown
+B7MMG5_ECO45	Antigen 43 (AG43) (Fluffing protein) OS=Escherichia coli O45:K1 (strain S88 / ExPEC) OX=585035 GN=ECS88_4891 PE=4 SV=1 UPId=UP000000747 PPId=UP000000625	OuterMembrane
+B7MLN4_ECO45	GGACT domain-containing protein OS=Escherichia coli O45:K1 (strain S88 / ExPEC) OX=585035 GN=ytfP PE=4 SV=1 UPId=UP000000747 PPId=UP000000625	Unknown
+A0A2S8DIS6_SHIBO	DDE-type integrase/transposase/recombinase OS=Shigella boydii OX=621 GN=G5S56_00685 PE=4 SV=1 UPId=UP000515238 PPId=UP000000625	Unknown
+Q32AJ8_SHIDS	Ribulose-phosphate 3-epimerase OS=Shigella dysenteriae serotype 1 (strain Sd197) OX=300267 GN=rpe PE=3 SV=1 UPId=UP000002716 PPId=UP000000625	Cytoplasmic
+A4SH27_SHIDS	RfpB OS=Shigella dysenteriae serotype 1 (strain Sd197) OX=300267 GN=rfpB PE=4 SV=1 UPId=UP000002716 PPId=UP000000625	Cytoplasmic
+B1ENM1_ESCAT	Threonine--tRNA ligase OS=Escherichia albertii (strain TW07627) OX=502347 GN=thrS PE=3 SV=1 UPId=UP000003042 PPId=UP000000625	Cytoplasmic
+B1EFS8_ESCAT	Uncharacterized protein OS=Escherichia albertii (strain TW07627) OX=502347 GN=ESCAB7627_0422 PE=4 SV=1 UPId=UP000003042 PPId=UP000000625	Unknown
+A0A0H2V2H8_SHIFL	Biotin carboxylase OS=Shigella flexneri OX=623 GN=accC PE=4 SV=1 UPId=UP000001006 PPId=UP000000625	Cytoplasmic
+A0A7U9BB87_ECOLX	Oligopeptidase A OS=Escherichia coli TA271 OX=656443 GN=ECLG_01863 PE=3 SV=1 UPId=UP000004645 PPId=UP000000625	Cytoplasmic
+A0A0H2W190_SHIFL	Inorganic pyrophosphatase OS=Shigella flexneri OX=623 GN=ppa PE=3 SV=1 UPId=UP000001006 PPId=UP000000625	Cytoplasmic
+A0A0H2UYU9_SHIFL	Uncharacterized protein OS=Shigella flexneri OX=623 GN=SF1195 PE=4 SV=1 UPId=UP000001006 PPId=UP000000625	Unknown
+A0A384KBF6_SHIFL	Putative periplasmic protein OS=Shigella flexneri OX=623 GN=yraP PE=4 SV=1 UPId=UP000001006 PPId=UP000000625	Periplasmic
+A0A0H2V449_SHIFL	Putative LACI-type transcriptional regulator OS=Shigella flexneri OX=623 GN=ytfQ PE=4 SV=1 UPId=UP000001006 PPId=UP000000625	Periplasmic
+A0A7U9BEM8_ECOLX	Periplasmic murein peptide-binding protein OS=Escherichia coli TA271 OX=656443 GN=ECLG_02515 PE=4 SV=1 UPId=UP000004645 PPId=UP000000625	Periplasmic
+A0A658YTJ9_SHIFL	UMP phosphatase OS=Shigella flexneri OX=623 GN=nagD_3 PE=4 SV=1 UPId=UP000260191 PPId=UP000000625	Unknown
+A0A1X3I3K8_ECOLX	TraT complement resistance protein OS=Escherichia coli M056 OX=656415 GN=EAMG_05023 PE=3 SV=1 UPId=UP000193167 PPId=UP000000625	OuterMembrane
+A0A1X3I601_ECOLX	Deoxycytidine triphosphate deaminase (dCTP deaminase) OS=Escherichia coli M056 OX=656415 GN=EAMG_01991 PE=4 SV=1 UPId=UP000193167 PPId=UP000000625	Unknown
+A0A1X3I7X1_ECOLX	Glutamate/aspartate periplasmic-binding protein OS=Escherichia coli M056 OX=656415 GN=EAMG_00090 PE=4 SV=1 UPId=UP000193167 PPId=UP000000625	Periplasmic
+A0A1X3IBI2_ECOLX	Putative glycerate kinase OS=Escherichia coli M056 OX=656415 GN=EAMG_05097 PE=3 SV=1 UPId=UP000193167 PPId=UP000000625	Cytoplasmic
+A0A829DPF4_ECOLX	4-hydroxy-4-methyl-2-oxoglutarate aldolase OS=Escherichia coli 2875150 OX=1116036 GN=rraA PE=3 SV=1 UPId=UP000012379 PPId=UP000000625	Cytoplasmic
+B2U361_SHIB3	Uncharacterized protein OS=Shigella boydii serotype 18 (strain CDC 3083-94 / BS512) OX=344609 GN=SbBS512_E1916 PE=4 SV=1 UPId=UP000001030 PPId=UP000000625	Unknown
+B2U0U1_SHIB3	Fructose-bisphosphate aldolase OS=Shigella boydii serotype 18 (strain CDC 3083-94 / BS512) OX=344609 GN=fbaA PE=3 SV=1 UPId=UP000001030 PPId=UP000000625	Cytoplasmic
+B2U493_SHIB3	YebG protein OS=Shigella boydii serotype 18 (strain CDC 3083-94 / BS512) OX=344609 GN=yebG PE=4 SV=1 UPId=UP000001030 PPId=UP000000625	Unknown
+B2U0H3_SHIB3	Uncharacterized protein OS=Shigella boydii serotype 18 (strain CDC 3083-94 / BS512) OX=344609 GN=SbBS512_E1509 PE=4 SV=1 UPId=UP000001030 PPId=UP000000625	Unknown
+B2TXK6_SHIB3	Putative receptor recognizing protein Gp38 OS=Shigella boydii serotype 18 (strain CDC 3083-94 / BS512) OX=344609 GN=SbBS512_E1097 PE=4 SV=1 UPId=UP000001030 PPId=UP000000625	Unknown
+A0A0A6ZUC0_SHIDY	Phage shock protein A OS=Shigella dysenteriae 1617 OX=754093 GN=Asd1617_02612 PE=3 SV=1 UPId=UP000031647 PPId=UP000000625	CytoplasmicMembrane
+E2X7R8_SHIDY	Translation initiation inhibitor OS=Shigella dysenteriae 1617 OX=754093 GN=Asd1617_04410 PE=3 SV=1 UPId=UP000031647 PPId=UP000000625	Cytoplasmic
+A0A0H3MMU1_ECO7I	HU, DNA-binding transcriptional regulator, alpha subunit OS=Escherichia coli O7:K1 (strain IAI39 / ExPEC) OX=585057 GN=hupA PE=3 SV=1 UPId=UP000000749 PPId=UP000000625	Cytoplasmic
+F5P032_SHIFL	3-hydroxyisobutyrate dehydrogenase domain protein OS=Shigella flexneri K-227 OX=766147 GN=SFK227_3787 PE=4 SV=1 UPId=UP000004520 PPId=UP000000625	Cytoplasmic
+F5P116_SHIFL	Glycerol dehydrogenase OS=Shigella flexneri K-227 OX=766147 GN=SFK227_4173 PE=3 SV=1 UPId=UP000004520 PPId=UP000000625	Cytoplasmic
+I6CQ10_SHIFL	Holliday junction ATP-dependent DNA helicase ruvA OS=Shigella flexneri K-315 OX=766150 GN=SFK315_2076 PE=4 SV=1 UPId=UP000005407 PPId=UP000000625	Cytoplasmic
+I6D3N7_SHIFL	TolA_bind_tri domain-containing protein OS=Shigella flexneri K-315 OX=766150 GN=SFK315_0614 PE=4 SV=1 UPId=UP000005407 PPId=UP000000625	Unknown
+I6C804_SHIFL	2',3'-cyclic-nucleotide 2'-phosphodiesterase OS=Shigella flexneri K-315 OX=766150 GN=SFK315_5011 PE=3 SV=1 UPId=UP000005407 PPId=UP000000625	Periplasmic
+I6D1B3_SHIFL	Anaerobic dimethyl sulfoxide reductase chain A OS=Shigella flexneri K-315 OX=766150 GN=dmsA PE=3 SV=1 UPId=UP000005407 PPId=UP000000625	Unknown
+I6CDV2_SHIFL	50S ribosomal protein L11 OS=Shigella flexneri K-315 OX=766150 GN=rplK PE=3 SV=1 UPId=UP000005407 PPId=UP000000625	Cytoplasmic
+A0A0H2V5Y8_ECOL6	Uncharacterized protein OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=c1138 PE=4 SV=1 UPId=UP000001410 PPId=UP000000625	Periplasmic
+A0A0H2VAB7_ECOL6	Uncharacterized protein OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=c3379 PE=4 SV=1 UPId=UP000001410 PPId=UP000000625	Unknown
+A0A828U7M5_ECOLX	SMF family protein OS=Escherichia coli DEC2D OX=868141 GN=ECDEC2D_0995 PE=3 SV=1 UPId=UP000005272 PPId=UP000000625	Cytoplasmic
+A0A1X3LKZ9_ECOLX	Uncharacterized protein OS=Escherichia coli TA054 OX=656433 GN=EAXG_01510 PE=4 SV=1 UPId=UP000193131 PPId=UP000000625	Unknown
+A0A454AAJ9_ECOL5	30S ribosomal protein S6 OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=ECP_4445 PE=3 SV=1 UPId=UP000009182 PPId=UP000000625	Cytoplasmic
+B7LL07_ESCF3	Maltodextrin-binding protein OS=Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CCUG 18766 / IAM 14443 / JCM 21226 / LMG 7866 / NBRC 102419 / NCTC 12128 / CDC 0568-73) OX=585054 GN=malE PE=3 SV=1 UPId=UP000000745 PPId=UP000000625	Periplasmic
+A0A8E0KZM2_ECOLX	OmpA family protein OS=Escherichia coli 9.0111 OX=869686 GN=EC90111_2256 PE=4 SV=1 UPId=UP000005347 PPId=UP000000625	OuterMembrane
+A0A7U9AZ42_ECOLX	NADH-quinone oxidoreductase subunit F OS=Escherichia coli TA206 OX=656440 GN=ECKG_02175 PE=3 SV=1 UPId=UP000003960 PPId=UP000000625	Cytoplasmic
+A0A7U9AVW0_ECOLX	Outer-membrane lipoprotein carrier protein OS=Escherichia coli TA206 OX=656440 GN=lolA PE=3 SV=1 UPId=UP000003960 PPId=UP000000625	Periplasmic
+A0A7U9AYI8_ECOLX	NADH-quinone oxidoreductase subunit I (Fragment) OS=Escherichia coli TA206 OX=656440 GN=ECKG_02172 PE=4 SV=1 UPId=UP000003960 PPId=UP000000625	Unknown
+A0A080IX84_ECOLX	Uncharacterized protein OS=Escherichia coli 1-250-04_S3_C2 OX=1444163 GN=AC28_2212 PE=4 SV=1 UPId=UP000027995 PPId=UP000000625	Unknown
+D8A175_ECOMS	Uncharacterized protein OS=Escherichia coli (strain MS 21-1) OX=749527 GN=HMPREF9530_00236 PE=4 SV=1 UPId=UP000005688 PPId=UP000000625	Unknown
+A0A1Y2Y4L9_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=FVB16_00870 PE=4 SV=1 UPId=UP000392867 PPId=UP000000625	Unknown
+A0A376TGK4_ECOLX	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit OS=Escherichia coli OX=562 GN=dhaK_2 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Unknown
+A0A376KNQ2_ECOLX	Agmatinase OS=Escherichia coli OX=562 GN=speB_3 PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A229AGN3_ECOLX	30S ribosomal protein S3 OS=Escherichia coli OX=562 GN=rpsC PE=3 SV=1 UPId=UP000214591 PPId=UP000000625	Cytoplasmic
+A0A377A742_ECOLX	Peptidase B (Aminopeptidase B) OS=Escherichia coli OX=562 GN=pepB_2 PE=3 SV=1 UPId=UP000255543 PPId=UP000000625	Cytoplasmic
+A0A377DTB3_ECOLX	Peptide chain release factor 1 OS=Escherichia coli OX=562 GN=prfA_3 PE=3 SV=1 UPId=UP000254429 PPId=UP000000625	Cytoplasmic
+A0A418GKP9_ECOLX	50S ribosomal protein L29 (Fragment) OS=Escherichia coli OX=562 GN=D3C88_13300 PE=3 SV=1 UPId=UP000284508 PPId=UP000000625	Cytoplasmic
+A0A2S8HLR1_ECOLX	NAD(P)H-quinone oxidoreductase OS=Escherichia coli OX=562 GN=C5N07_28100 PE=4 SV=1 UPId=UP000238978 PPId=UP000000625	CytoplasmicMembrane
+A0A377K8J8_ECOLX	Phosphohydroxythreonine aminotransferase OS=Escherichia coli OX=562 GN=serC_2 PE=4 SV=1 UPId=UP000254181 PPId=UP000000625	Cytoplasmic
+A0A2X1KFH3_ECOLX	Pyridoxine 5'-phosphate synthase OS=Escherichia coli OX=562 GN=pdxJ_1 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Cytoplasmic
+A0A485JPK4_ECOLX	Membrane-bound ATP synthase F0 sector subunit b OS=Escherichia coli OX=562 GN=atpF PE=3 SV=1 UPId=UP000358010 PPId=UP000000625	CytoplasmicMembrane
+A0A377DTN1_ECOLX	Peptidase T OS=Escherichia coli OX=562 GN=pepT_2 PE=3 SV=1 UPId=UP000254429 PPId=UP000000625	Cytoplasmic
+A0A377C6T7_ECOLX	Nucleoside diphosphate kinase OS=Escherichia coli OX=562 GN=ndk PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A376TUH7_ECOLX	Histidyl-tRNA synthetase OS=Escherichia coli OX=562 GN=hisS_3 PE=3 SV=1 UPId=UP000254405 PPId=UP000000625	Cytoplasmic
+A0A2X1N1P8_ECOLX	DNA-binding ATP-dependent protease La OS=Escherichia coli OX=562 GN=lon_6 PE=4 SV=1 UPId=UP000250780 PPId=UP000000625	Cytoplasmic
+A0A4C3ABB4_ECOLX	Colicin IA outer membrane receptor and translocator OS=Escherichia coli OX=562 GN=cirA PE=3 SV=1 UPId=UP000300926 PPId=UP000000625	OuterMembrane
+A0A376WVX2_ECOLX	Putative protease OS=Escherichia coli OX=562 GN=yhjJ_1 PE=3 SV=1 UPId=UP000254503 PPId=UP000000625	Unknown
+A0A484YYU9_ECOLX	Alanine--tRNA ligase OS=Escherichia coli OX=562 GN=alaS_4 PE=3 SV=1 UPId=UP000372890 PPId=UP000000625	Cytoplasmic
+A0A376TLW1_ECOLX	Acetyl-CoA carboxytransferase OS=Escherichia coli OX=562 GN=accA_2 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Cytoplasmic
+A0A7H5DH58_ECOLX	Conjugal transfer protein TraI OS=Escherichia coli OX=562 GN=EBP16_23840 PE=4 SV=1 UPId=UP000276021 PPId=UP000000625	Cytoplasmic
+A0A3L9HZZ0_ECOLX	PhoH family protein (Fragment) OS=Escherichia coli OX=562 GN=EAI46_23225 PE=3 SV=1 UPId=UP000281340 PPId=UP000000625	Cytoplasmic
+A0A376S9U4_ECOLX	1-phosphofructokinase OS=Escherichia coli OX=562 GN=fruK_2 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Cytoplasmic
+A0A2X1NP24_ECOLX	RNA polymerase sigma factor OS=Escherichia coli OX=562 GN=rpoE PE=3 SV=1 UPId=UP000250780 PPId=UP000000625	Cytoplasmic
+A0A376YD66_ECOLX	Xanthine-guanine phosphoribosyltransferase OS=Escherichia coli OX=562 GN=gpt PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Cytoplasmic
+A0A8H1X6M9_ECOLX	tRNA(fMet)-specific endonuclease VapC (Fragment) OS=Escherichia coli OX=562 GN=vapC PE=4 SV=1 UPId=UP000297888 PPId=UP000000625	Unknown
+A0A8G8WVK2_ECOLX	Glycerophosphodiester phosphodiesterase OS=Escherichia coli OX=562 GN=ELY39_15255 PE=4 SV=1 UPId=UP000297547 PPId=UP000000625	Periplasmic
+A0A2X1JNV7_ECOLX	Ribosomal RNA small subunit methyltransferase C OS=Escherichia coli OX=562 GN=rsmC_2 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376J2Y2_ECOLX	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase OS=Escherichia coli OX=562 GN=hisA_2 PE=3 SV=1 UPId=UP000255201 PPId=UP000000625	Cytoplasmic
+A0A377E6Z1_ECOLX	Putative alpha helical protein OS=Escherichia coli OX=562 GN=ybeL_2 PE=4 SV=1 UPId=UP000254088 PPId=UP000000625	Unknown
+A0A2X3LVH8_ECOLX	Acetate kinase OS=Escherichia coli OX=562 GN=ackA_1 PE=3 SV=1 UPId=UP000250991 PPId=UP000000625	Cytoplasmic
+A0A376X3V8_ECOLX	Glutaredoxin OS=Escherichia coli OX=562 GN=grxA PE=4 SV=1 UPId=UP000254503 PPId=UP000000625	Unknown
+A0A376LI68_ECOLX	Adenosylhomocysteine nucleosidase OS=Escherichia coli OX=562 GN=mtn_2 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Unknown
+A0A377CG56_ECOLX	Site-specific DNA-methyltransferase (adenine-specific) OS=Escherichia coli OX=562 GN=NCTC10429_03163 PE=4 SV=1 UPId=UP000254088 PPId=UP000000625	Unknown
+A0A484YMA4_ECOLX	Peptidase Do OS=Escherichia coli OX=562 GN=degQ_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Periplasmic
+A0A2X1LCI4_ECOLX	3,4-dihydroxy-2-butanone 4-phosphate synthase OS=Escherichia coli OX=562 GN=ribB_1 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A377K736_ECOLX	Arginine--tRNA ligase OS=Escherichia coli OX=562 GN=argS_1 PE=3 SV=1 UPId=UP000254181 PPId=UP000000625	Cytoplasmic
+A0A8I0NK89_ECOLX	NADP-dependent phosphogluconate dehydrogenase (Fragment) OS=Escherichia coli OX=562 GN=IH772_29695 PE=3 SV=1 UPId=UP000640866 PPId=UP000000625	Cytoplasmic
+A0A376VZH4_ECOLX	Methionine aminopeptidase OS=Escherichia coli OX=562 GN=map_1 PE=3 SV=1 UPId=UP000254716 PPId=UP000000625	Cytoplasmic
+A0A8B4PR90_ECOLX	Tryptophan--tRNA ligase OS=Escherichia coli OX=562 GN=trpS_1 PE=3 SV=1 UPId=UP000254335 PPId=UP000000625	Cytoplasmic
+A0A4D0QYG8_ECOLX	Ketol-acid reductoisomerase (NADP(+)) OS=Escherichia coli OX=562 GN=ilvC_1 PE=3 SV=1 UPId=UP000299677 PPId=UP000000625	Cytoplasmic
+A0A376ML14_ECOLX	DNA helicase OS=Escherichia coli OX=562 GN=recG_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Unknown
+A0A376P334_ECOLX	ATP-dependent Clp protease proteolytic subunit OS=Escherichia coli OX=562 GN=clpP_5 PE=4 SV=1 UPId=UP000254428 PPId=UP000000625	Cytoplasmic
+A0A376LGF9_ECOLX	Exoribonuclease II OS=Escherichia coli OX=562 GN=rnr_3 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Cytoplasmic
+A0A377C159_ECOLX	RNA polymerase OS=Escherichia coli OX=562 GN=rpoD_3 PE=4 SV=1 UPId=UP000254255 PPId=UP000000625	Cytoplasmic
+A0A377AQ07_ECOLX	Mg(2+) transport ATPase, P-type OS=Escherichia coli OX=562 GN=mgtA_2 PE=4 SV=1 UPId=UP000254052 PPId=UP000000625	CytoplasmicMembrane
+A0A8H0PKT3_ECOLX	Autotransporter adhesin Ag43 (Fragment) OS=Escherichia coli OX=562 GN=DEN87_27270 PE=4 SV=1 UPId=UP000297717 PPId=UP000000625	OuterMembrane
+A0A2X1Q133_ECOLX	Cytochrome o ubiquinol oxidase subunit II OS=Escherichia coli OX=562 GN=cyoA_2 PE=3 SV=1 UPId=UP000250780 PPId=UP000000625	CytoplasmicMembrane
+A0A376W7N8_ECOLX	50S ribosomal protein L19 OS=Escherichia coli OX=562 GN=rplS_2 PE=4 SV=1 UPId=UP000254716 PPId=UP000000625	Unknown
+A0A826NG43_ECOLX	Methionine--tRNA ligase OS=Escherichia coli OX=562 GN=CXJ73_005976 PE=3 SV=1 UPId=UP000551708 PPId=UP000000625	Cytoplasmic
+A0A3S4KP05_ECOLX	Transcription termination/antitermination factor NusA OS=Escherichia coli OX=562 GN=nusA_1 PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Cytoplasmic
+A0A3Q0N561_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=CR539_25405 PE=4 SV=1 UPId=UP000234543 PPId=UP000000625	OuterMembrane
+A0A377C6P1_ECOLX	Inosine 5'-monophosphate dehydrogenase OS=Escherichia coli OX=562 GN=guaB_3 PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A2X3M1E2_ECOLX	Acyl carrier protein OS=Escherichia coli OX=562 GN=acpP_1 PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Cytoplasmic
+A0A8I0NVZ1_ECOLX	Helix-turn-helix domain-containing protein (Fragment) OS=Escherichia coli OX=562 GN=IH768_29085 PE=4 SV=1 UPId=UP000642949 PPId=UP000000625	Cytoplasmic
+A0A377DVR9_ECOLX	Low specificity L-threonine aldolase OS=Escherichia coli OX=562 GN=ltaE_2 PE=3 SV=1 UPId=UP000254429 PPId=UP000000625	Cytoplasmic
+A0A6M1DJP8_ECOLX	Phage portal protein (Fragment) OS=Escherichia coli OX=562 GN=G5603_27440 PE=4 SV=1 UPId=UP000472856 PPId=UP000000625	Unknown
+A0A376KKD2_ECOLX	50S ribosomal protein L27 OS=Escherichia coli OX=562 GN=rpmA PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A377F7A7_ECOLX	Phosphoglucomutase OS=Escherichia coli OX=562 GN=pgm_1 PE=4 SV=1 UPId=UP000254255 PPId=UP000000625	Unknown
+A0A484WND6_ECOLX	Thymidylate kinase OS=Escherichia coli OX=562 GN=tmk_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Unknown
+A0A4Z0TAN2_ECOLX	D-ribose pyranase OS=Escherichia coli OX=562 GN=rbsD PE=3 SV=1 UPId=UP000297227 PPId=UP000000625	Cytoplasmic
+A0A485DXM7_ECOLX	Succinate dehydrogenase OS=Escherichia coli OX=562 GN=sdhB_1 PE=4 SV=1 UPId=UP000354160 PPId=UP000000625	CytoplasmicMembrane
+A0A2X1PXG6_ECOLX	Protease OS=Escherichia coli OX=562 GN=sohB_1 PE=4 SV=1 UPId=UP000250780 PPId=UP000000625	CytoplasmicMembrane
+A0A377DEH7_ECOLX	Purine nucleoside phosphorylase OS=Escherichia coli OX=562 GN=deoD_2 PE=4 SV=1 UPId=UP000254174 PPId=UP000000625	Unknown
+A0A8G9P6A6_ECOLX	DUF2498 family protein (Fragment) OS=Escherichia coli OX=562 GN=ELT54_05150 PE=4 SV=1 UPId=UP000298441 PPId=UP000000625	Unknown
+A0A6N6WRX9_ECOLX	Sulfate ABC transporter substrate-binding protein (Fragment) OS=Escherichia coli OX=562 GN=GP711_27500 PE=3 SV=1 UPId=UP000437875 PPId=UP000000625	Periplasmic
+A0A484YP02_ECOLX	Tagatose-1,6-bisphosphate aldolase OS=Escherichia coli OX=562 GN=agaY_1 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Unknown
+A0A376Y2H7_ECOLX	DNA topoisomerase (ATP-hydrolyzing) OS=Escherichia coli OX=562 GN=gyrB_2 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Cytoplasmic
+A0A376UFU4_ECOLX	Intimin OS=Escherichia coli OX=562 GN=eae_1 PE=3 SV=1 UPId=UP000254079 PPId=UP000000625	OuterMembrane
+A0A376TKJ4_ECOLX	D-methionine-binding transport system MetQ OS=Escherichia coli OX=562 GN=metQ_2 PE=3 SV=1 UPId=UP000254405 PPId=UP000000625	CytoplasmicMembrane
+A0A376LMY0_ECOLX	Putative lipoprotein OS=Escherichia coli OX=562 GN=slp_3 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	OuterMembrane
+A0A484X6M8_ECOLX	Altronate oxidoreductase OS=Escherichia coli OX=562 GN=uxaB_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Cytoplasmic
+A0A2X1K217_ECOLX	Glutamyl-tRNA synthetase OS=Escherichia coli OX=562 GN=gltX_4 PE=3 SV=1 UPId=UP000250561 PPId=UP000000625	Cytoplasmic
+A0A377BTH0_ECOLX	Branched-chain amino-acid aminotransferase OS=Escherichia coli OX=562 GN=ilvE_1 PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A376RGR8_ECOLX	Putative oxidoreductase OS=Escherichia coli OX=562 GN=preT_3 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A376W128_ECOLX	Alkyl hydroperoxide reductase C OS=Escherichia coli OX=562 GN=ahpC PE=3 SV=1 UPId=UP000254716 PPId=UP000000625	Cytoplasmic
+A0A6D0EP14_ECOLX	tRNA(Ile)-lysidine synthetase (Fragment) OS=Escherichia coli OX=562 GN=tilS PE=4 SV=1 UPId=UP000430011 PPId=UP000000625	Unknown
+A0A2X1N312_ECOLX	ABC transporter ATP-binding protein OS=Escherichia coli OX=562 GN=yrbF_1 PE=4 SV=1 UPId=UP000250780 PPId=UP000000625	CytoplasmicMembrane
+A0A376RMX1_ECOLX	Nucleoside-specific channel-forming protein Tsx OS=Escherichia coli OX=562 GN=tsx PE=3 SV=1 UPId=UP000254159 PPId=UP000000625	OuterMembrane
+A0A376U9H4_ECOLX	Protein YdgH OS=Escherichia coli OX=562 GN=ydgH_2 PE=4 SV=1 UPId=UP000254079 PPId=UP000000625	Unknown
+A0A3S4JY42_ECOLX	Acriflavin resistance protein A OS=Escherichia coli OX=562 GN=acrA_2 PE=3 SV=1 UPId=UP000271797 PPId=UP000000625	CytoplasmicMembrane
+A0A854BKI9_ECOLX	tRNA-modifying protein YgfZ OS=Escherichia coli OX=562 GN=AWP47_17145 PE=4 SV=1 UPId=UP000185794 PPId=UP000000625	Unknown
+A0A376RMW3_ECOLX	Thioredoxin-like protein OS=Escherichia coli OX=562 GN=ybbN_2 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A447X9I8_ECOLX	Dihydrodipicolinate reductase OS=Escherichia coli OX=562 GN=dapB_1 PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Cytoplasmic
+A0A822UEC7_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=ERS139208_04955 PE=4 SV=1 UPId=UP000039044 PPId=UP000000625	Unknown
+A0A377DS76_ECOLX	NADP-dependent L-serine/L-allo-threonine dehydrogenase OS=Escherichia coli OX=562 GN=ydfG_1 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Unknown
+A0A377KAS6_ECOLX	Peptidyl-prolyl cis-trans isomerase D OS=Escherichia coli OX=562 GN=ppiD_3 PE=4 SV=1 UPId=UP000254181 PPId=UP000000625	CytoplasmicMembrane
+A0A376JGC4_ECOLX	Putative flavoprotein OS=Escherichia coli OX=562 GN=wrbA_2 PE=4 SV=1 UPId=UP000254538 PPId=UP000000625	Unknown
+A0A376REF6_ECOLX	NifU-like protein OS=Escherichia coli OX=562 GN=iscU PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A376RE92_ECOLX	Glutamate--cysteine ligase OS=Escherichia coli OX=562 GN=gshA_3 PE=3 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A377A1A6_ECOLX	Superoxide dismutase OS=Escherichia coli OX=562 GN=sodB PE=3 SV=1 UPId=UP000255543 PPId=UP000000625	Periplasmic
+A0A376T1I6_ECOLX	Putative NADPH-dependent FMN reductase OS=Escherichia coli OX=562 GN=NCTC13127_06495 PE=4 SV=1 UPId=UP000254180 PPId=UP000000625	Unknown
+A0A376YDP5_ECOLX	Cytochrome o ubiquinol oxidase subunit I OS=Escherichia coli OX=562 GN=cyoB_2 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	CytoplasmicMembrane
+A0A7X1T563_ECOLX	50S ribosomal protein L5 OS=Escherichia coli OX=562 GN=rplE PE=3 SV=1 UPId=UP000460351 PPId=UP000000625	Cytoplasmic
+A0A484WSY4_ECOLX	Aldose 1-epimerase (Mutarotase) OS=Escherichia coli OX=562 GN=galM_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Periplasmic
+A0A376KSF8_ECOLX	Inner membrane protein OS=Escherichia coli OX=562 GN=yebE PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	CytoplasmicMembrane
+A0A2X3LZM9_ECOLX	Acyl carrier protein OS=Escherichia coli OX=562 GN=acpP_2 PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Unknown
+A0A376UFT9_ECOLX	Cysteine sulfinate desulfinase OS=Escherichia coli OX=562 GN=csdA_4 PE=4 SV=1 UPId=UP000254079 PPId=UP000000625	Cytoplasmic
+A0A484YX40_ECOLX	Proline aminopeptidase II OS=Escherichia coli OX=562 GN=pepP_1 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Cytoplasmic
+A0A376VZS5_ECOLX	Flavodoxin 1 OS=Escherichia coli OX=562 GN=fldA_2 PE=3 SV=1 UPId=UP000254716 PPId=UP000000625	Unknown
+A0A376D408_ECOLX	Protein GrpE OS=Escherichia coli OX=562 GN=grpE_2 PE=3 SV=1 UPId=UP000254647 PPId=UP000000625	Cytoplasmic
+A0A2X1JEL2_ECOLX	50S ribosomal protein L24 OS=Escherichia coli OX=562 GN=rplX PE=3 SV=1 UPId=UP000250561 PPId=UP000000625	Cytoplasmic
+A0A376RBF8_ECOLX	Universal stress protein A OS=Escherichia coli OX=562 GN=uspA1_1 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A2X1JEG9_ECOLX	Cytochrome d ubiquinol oxidase subunit III OS=Escherichia coli OX=562 GN=yhcB_1 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	CytoplasmicMembrane
+A0A3J9GZC8_ECOLX	Antitermination protein OS=Escherichia coli OX=562 GN=D9H94_25475 PE=4 SV=1 UPId=UP000268241 PPId=UP000000625	Unknown
+A0A376VYR8_ECOLX	Lipopolysaccharide transport periplasmic protein LptA OS=Escherichia coli OX=562 GN=yhbN_1 PE=4 SV=1 UPId=UP000254716 PPId=UP000000625	Unknown
+A0A4C9F4U9_ECOLX	Restriction endonuclease OS=Escherichia coli OX=562 GN=BvCmsKKP061_00475 PE=4 SV=1 UPId=UP000303027 PPId=UP000000625	Cytoplasmic
+A0A376ZXM1_ECOLX	Putative cytoplasmic protein YciI OS=Escherichia coli OX=562 GN=yciI_2 PE=4 SV=1 UPId=UP000255543 PPId=UP000000625	Unknown
+A0A377K8N2_ECOLX	Thioredoxin reductase OS=Escherichia coli OX=562 GN=trxB_2 PE=4 SV=1 UPId=UP000254181 PPId=UP000000625	Cytoplasmic
+A0A376DHK2_ECOLX	Inactive ferrous ion transporter periplasmic protein EfeO OS=Escherichia coli OX=562 GN=efeO_3 PE=4 SV=1 UPId=UP000254647 PPId=UP000000625	Periplasmic
+A0A377C4M0_ECOLX	Phospholipid ABC transporter substrate-binding protein OS=Escherichia coli OX=562 GN=mlaD_2 PE=4 SV=1 UPId=UP000254255 PPId=UP000000625	Unknown
+A0A377KAS4_ECOLX	Nucleotide-binding protein OS=Escherichia coli OX=562 GN=yajQ_1 PE=4 SV=1 UPId=UP000254181 PPId=UP000000625	Cytoplasmic
+A0A484X6H8_ECOLX	Protein MalY [includes: cystathionine beta-lyase maltose regulon modulator] OS=Escherichia coli OX=562 GN=malY_1 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Unknown
+A0A3S5DUH5_ECOLX	30S ribosomal protein S21 OS=Escherichia coli OX=562 GN=rpsU PE=3 SV=1 UPId=UP000271797 PPId=UP000000625	Cytoplasmic
+A0A376W6R4_ECOLX	Crossover junction endodeoxyribonuclease rusA OS=Escherichia coli OX=562 GN=rusA_2 PE=3 SV=1 UPId=UP000254716 PPId=UP000000625	Unknown
+A0A376WY42_ECOLX	Putative protease inhibitor OS=Escherichia coli OX=562 GN=NCTC9045_01563 PE=4 SV=1 UPId=UP000254503 PPId=UP000000625	Unknown
+A0A376D3W4_ECOLX	Thioredoxin 2 OS=Escherichia coli OX=562 GN=trxC PE=4 SV=1 UPId=UP000254647 PPId=UP000000625	Cytoplasmic
+A0A5E9SG54_ECOLX	Iron-sulfur cluster assembly scaffold protein SufA OS=Escherichia coli OX=562 GN=E2129_17400 PE=4 SV=1 UPId=UP000298150 PPId=UP000000625	Unknown
+A0A8G8YE56_ECOLX	AatA protein OS=Escherichia coli OX=562 GN=ELV21_27670 PE=4 SV=1 UPId=UP000298029 PPId=UP000000625	Cytoplasmic
+A0A377CCI6_ECOLX	Outer membrane porin protein C OS=Escherichia coli OX=562 GN=ompC_2 PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	OuterMembrane
+A0A376CZ99_ECOLX	Putative acetyltransferase OS=Escherichia coli OX=562 GN=NCTC10767_01677 PE=4 SV=1 UPId=UP000254647 PPId=UP000000625	Unknown
+A0A376ZQ88_ECOLX	Glucosamine-6-phosphate isomerase OS=Escherichia coli OX=562 GN=nagB_3 PE=4 SV=1 UPId=UP000255543 PPId=UP000000625	Unknown
+A0A2X1KB67_ECOLX	Glucarate dehydratase OS=Escherichia coli OX=562 GN=gudD_3 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376JFA5_ECOLX	Putative universal stress protein OS=Escherichia coli OX=562 GN=uspF PE=4 SV=1 UPId=UP000254538 PPId=UP000000625	Unknown
+A0A376U9E3_ECOLX	Sulfurtransferase OS=Escherichia coli OX=562 GN=ynjE_1 PE=4 SV=1 UPId=UP000254079 PPId=UP000000625	Periplasmic
+A0A377DHR2_ECOLX	Putative cytoplasmic protein OS=Escherichia coli OX=562 GN=ybaB_2 PE=4 SV=1 UPId=UP000254174 PPId=UP000000625	Unknown
+A0A376Y7C5_ECOLX	NADP-dependent malic enzyme OS=Escherichia coli OX=562 GN=maeB_2 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Cytoplasmic
+A0A447Y4G8_ECOLX	Single-stranded DNA-binding protein OS=Escherichia coli OX=562 GN=ssb_3 PE=3 SV=1 UPId=UP000277930 PPId=UP000000625	Cytoplasmic
+A0A377CX22_ECOLX	RNA polymerase-binding transcription factor OS=Escherichia coli OX=562 GN=dksA_2 PE=4 SV=1 UPId=UP000254052 PPId=UP000000625	Cytoplasmic
+A0A377FB15_ECOLX	Putative ACR involved in intracellular sulfur reduction OS=Escherichia coli OX=562 GN=ychN PE=4 SV=1 UPId=UP000254460 PPId=UP000000625	Unknown
+A0A376ST12_ECOLX	Outer membrane receptor for ferrienterochelin and colicins OS=Escherichia coli OX=562 GN=fepA_2 PE=4 SV=1 UPId=UP000254180 PPId=UP000000625	OuterMembrane
+A0A376L1V8_ECOLX	Periplasmic protein OS=Escherichia coli OX=562 GN=osmY_2 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Periplasmic
+A0A485JHY0_ECOLX	6-phosphogluconolactonase OS=Escherichia coli OX=562 GN=pgl_1 PE=4 SV=1 UPId=UP000358010 PPId=UP000000625	Unknown
+A0A484YPK6_ECOLX	Membrane-anchored ribosome-binding protein OS=Escherichia coli OX=562 GN=yqjD PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Unknown
+A0A377DJU6_ECOLX	Cell division protein FtsY OS=Escherichia coli OX=562 GN=ftsY_3 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Unknown
+A0A377DYQ7_ECOLX	Isoaspartyl dipeptidase OS=Escherichia coli OX=562 GN=iadA_1 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Cytoplasmic
+A0A376RBA0_ECOLX	1,4-alpha-glucan-branching protein OS=Escherichia coli OX=562 GN=glgB_2 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A376KRB7_ECOLX	Uracil phosphoribosyltransferase OS=Escherichia coli OX=562 GN=upp_2 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A485J7U2_ECOLX	Glycine--tRNA ligase alpha subunit OS=Escherichia coli OX=562 GN=glyQ_3 PE=3 SV=1 UPId=UP000358010 PPId=UP000000625	Cytoplasmic
+A0A376TZH2_ECOLX	3-octaprenyl-4-hydroxybenzoate carboxy-lyase OS=Escherichia coli OX=562 GN=ubiD_1 PE=4 SV=1 UPId=UP000254079 PPId=UP000000625	Cytoplasmic
+A0A376KZF9_ECOLX	Pyrroline-5-carboxylate reductase OS=Escherichia coli OX=562 GN=proC_2 PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A376YCI2_ECOLX	Putative lipoprotein OS=Escherichia coli OX=562 GN=NCTC9117_04716 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Unknown
+A0A376L4I5_ECOLX	Membrane-bound ATP synthase F1 sector gamma-subunit OS=Escherichia coli OX=562 GN=atpG_2 PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A376LKG4_ECOLX	Putative glycosyl transferase OS=Escherichia coli OX=562 GN=NCTC7928_05498 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Unknown
+A0A376L2A1_ECOLX	Putative endoribonuclease OS=Escherichia coli OX=562 GN=yjgH_1 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A376TLG5_ECOLX	Aerobic respiration control protein ArcA OS=Escherichia coli OX=562 GN=arcA_1 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Cytoplasmic
+A0A376L549_ECOLX	Putative lipopolysaccharide core biosynthesis GTP-binding protein OS=Escherichia coli OX=562 GN=typA_1 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A2X3K3J5_ECOLX	Putative alcohol dehydrogenase OS=Escherichia coli OX=562 GN=yqhD_2 PE=3 SV=1 UPId=UP000250991 PPId=UP000000625	Unknown
+A0A485JIU4_ECOLX	Adenine phosphoribosyltransferase OS=Escherichia coli OX=562 GN=apt_2 PE=4 SV=1 UPId=UP000358010 PPId=UP000000625	Cytoplasmic
+A0A376WW71_ECOLX	Thioredoxin-dependent thiol peroxidase OS=Escherichia coli OX=562 GN=bcp_2 PE=4 SV=1 UPId=UP000254503 PPId=UP000000625	Unknown
+A0A376MP82_ECOLX	DNA-binding transcriptional regulator OxyR OS=Escherichia coli OX=562 GN=oxyR_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Cytoplasmic
+A0A2X1NJK9_ECOLX	Endoribonuclease L-PSP OS=Escherichia coli OX=562 GN=ridA PE=3 SV=1 UPId=UP000250780 PPId=UP000000625	Cytoplasmic
+A0A2X3M671_ECOLX	Inorganic diphosphatase OS=Escherichia coli OX=562 GN=ppa PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Cytoplasmic
+A0A376JF04_ECOLX	Chaperone (Peptidyl-prolyl cis-trans isomerase) OS=Escherichia coli OX=562 GN=surA_2 PE=4 SV=1 UPId=UP000254538 PPId=UP000000625	Periplasmic
+A0A447X5K7_ECOLX	Putative oxidoreductase OS=Escherichia coli OX=562 GN=yhhX_1 PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Cytoplasmic
+A0A376Y830_ECOLX	Arginine decarboxylase OS=Escherichia coli OX=562 GN=speA_2 PE=3 SV=1 UPId=UP000254785 PPId=UP000000625	Periplasmic
+A0A376REP2_ECOLX	Putative decarboxylase OS=Escherichia coli OX=562 GN=ygdH_2 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Unknown
+A0A376LG27_ECOLX	Oligoribonuclease OS=Escherichia coli OX=562 GN=orn_1 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Cytoplasmic
+A0A2X1PJ30_ECOLX	ATP synthase epsilon chain OS=Escherichia coli OX=562 GN=atpC_1 PE=3 SV=1 UPId=UP000250780 PPId=UP000000625	Cytoplasmic
+A0A6N8R6C7_ECOLX	Glucose-6-phosphate 1-epimerase (Fragment) OS=Escherichia coli OX=562 GN=GRW05_29120 PE=3 SV=1 UPId=UP000436141 PPId=UP000000625	Cytoplasmic
+A0A2X1J1B6_ECOLX	Fibronectin-binding protein B OS=Escherichia coli OX=562 GN=lpoB PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376LAP0_ECOLX	3-phenylpropionate dioxygenase alpha subunit OS=Escherichia coli OX=562 GN=hcaE_1 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Unknown
+A0A377E3B2_ECOLX	50S ribosomal protein L9 OS=Escherichia coli OX=562 GN=rplI PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A376W3D1_ECOLX	Cupin superfamily protein family OS=Escherichia coli OX=562 GN=ycfD_1 PE=4 SV=1 UPId=UP000254716 PPId=UP000000625	Cytoplasmic
+A0A377E1E5_ECOLX	Enterobacterial common antigen (ECA) polysaccharide chain length modulation protein OS=Escherichia coli OX=562 GN=wzzE_1 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	CytoplasmicMembrane
+A0A8H1XFW4_ECOLX	DNA primase (Fragment) OS=Escherichia coli OX=562 GN=E5P36_19460 PE=3 SV=1 UPId=UP000298153 PPId=UP000000625	Cytoplasmic
+A0A377DLD9_ECOLX	Siderophore-interacting protein OS=Escherichia coli OX=562 GN=yqjH_1 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Unknown
+A0A376REG6_ECOLX	4-aminobutyrate aminotransferase OS=Escherichia coli OX=562 GN=gabT_1 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	Cytoplasmic
+A0A377K215_ECOLX	Translation inhibitor protein RaiA OS=Escherichia coli OX=562 GN=raiA_1 PE=4 SV=1 UPId=UP000254181 PPId=UP000000625	Cytoplasmic
+A0A447XA77_ECOLX	Putative type VI secretion system protein OS=Escherichia coli OX=562 GN=NCTC9044_03274 PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Unknown
+A0A485JPY6_ECOLX	Maltoporin (Maltose-inducible porin) OS=Escherichia coli OX=562 GN=lamB_2 PE=3 SV=1 UPId=UP000358010 PPId=UP000000625	OuterMembrane
+A0A484YW15_ECOLX	Protein OS=Escherichia coli OX=562 GN=yggL PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	Unknown
+A0A3S4LFL8_ECOLX	Glutaredoxin 3 OS=Escherichia coli OX=562 GN=grxC PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Unknown
+A0A485J825_ECOLX	Glutathione reductase OS=Escherichia coli OX=562 GN=gor_2 PE=3 SV=1 UPId=UP000358010 PPId=UP000000625	Cytoplasmic
+A0A2X1L4E1_ECOLX	CysQ protein OS=Escherichia coli OX=562 GN=cysQ_1 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376YE66_ECOLX	Rare lipoprotein A OS=Escherichia coli OX=562 GN=rlpA_1 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Unknown
+A0A376KR05_ECOLX	Glutathione synthetase OS=Escherichia coli OX=562 GN=gshB_1 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A485JLJ4_ECOLX	Glutaminyl-tRNA synthetase OS=Escherichia coli OX=562 GN=glnS_3 PE=3 SV=1 UPId=UP000358010 PPId=UP000000625	Cytoplasmic
+A0A2X3LNJ9_ECOLX	Universal stress protein E OS=Escherichia coli OX=562 GN=uspE_3 PE=4 SV=1 UPId=UP000250781 PPId=UP000000625	Unknown
+A0A376TW42_ECOLX	Isoprenoid biosynthesis protein with amidotransferase-like domain OS=Escherichia coli OX=562 GN=yhbL_2 PE=4 SV=1 UPId=UP000254079 PPId=UP000000625	Cytoplasmic
+A0A376UE39_ECOLX	Molybdopterin molybdenumtransferase OS=Escherichia coli OX=562 GN=moeA_1 PE=3 SV=1 UPId=UP000254079 PPId=UP000000625	Cytoplasmic
+A0A377DRE8_ECOLX	Putative nitroreductase OS=Escherichia coli OX=562 GN=ydjA_1 PE=4 SV=1 UPId=UP000254429 PPId=UP000000625	Unknown
+A0A2X1J909_ECOLX	HflC protein OS=Escherichia coli OX=562 GN=hflC_3 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376KWW8_ECOLX	Outer membrane protein A OS=Escherichia coli OX=562 GN=ompA_2 PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	OuterMembrane
+A0A376KN28_ECOLX	Xylose isomerase OS=Escherichia coli OX=562 GN=xylA_2 PE=3 SV=1 UPId=UP000255460 PPId=UP000000625	Cytoplasmic
+A0A376P0Z1_ECOLX	Betaine aldehyde dehydrogenase OS=Escherichia coli OX=562 GN=betB_3 PE=4 SV=1 UPId=UP000254428 PPId=UP000000625	Cytoplasmic
+A0A377LC71_ECOLX	Putative lipoprotein OS=Escherichia coli OX=562 GN=yfeY_2 PE=4 SV=1 UPId=UP000255454 PPId=UP000000625	Unknown
+A0A8H0NYY7_ECOLX	Porin OS=Escherichia coli OX=562 GN=DEN93_07220 PE=4 SV=1 UPId=UP000298519 PPId=UP000000625	OuterMembrane
+A0A377C3N1_ECOLX	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase KdsC OS=Escherichia coli OX=562 GN=kdsC_2 PE=3 SV=1 UPId=UP000254255 PPId=UP000000625	Cytoplasmic
+A0A376VQC0_ECOLX	Formate dehydrogenase-O OS=Escherichia coli OX=562 GN=fdoH PE=4 SV=1 UPId=UP000254495 PPId=UP000000625	CytoplasmicMembrane
+A0A484X0B9_ECOLX	Nitrogen regulatory protein P-II 1 OS=Escherichia coli OX=562 GN=glnB_2 PE=4 SV=1 UPId=UP000372890 PPId=UP000000625	CytoplasmicMembrane
+A0A377DUY0_ECOLX	Outer membrane porin protein NmpC OS=Escherichia coli OX=562 GN=nmpC PE=3 SV=1 UPId=UP000254429 PPId=UP000000625	OuterMembrane
+A0A2X3KJ52_ECOLX	Rare lipoprotein B OS=Escherichia coli OX=562 GN=rlpB_2 PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	OuterMembrane
+A0A376X647_ECOLX	Thiol:disulfide interchange protein DsbA OS=Escherichia coli OX=562 GN=dsbA_2 PE=3 SV=1 UPId=UP000254503 PPId=UP000000625	Periplasmic
+A0A377LPL2_ECOLX	Putative uroporphyrinogen III C-methyltransferase OS=Escherichia coli OX=562 GN=hemX_3 PE=4 SV=1 UPId=UP000255454 PPId=UP000000625	CytoplasmicMembrane
+A0A485JL08_ECOLX	RNase E inhibitor protein OS=Escherichia coli OX=562 GN=rraB_2 PE=4 SV=1 UPId=UP000358010 PPId=UP000000625	Cytoplasmic
+A0A376J5X5_ECOLX	M48B family peptidase OS=Escherichia coli OX=562 GN=htpX_1 PE=4 SV=1 UPId=UP000255201 PPId=UP000000625	CytoplasmicMembrane
+A0A377BVA6_ECOLX	Nickel ABC transporter, substrate-binding protein OS=Escherichia coli OX=562 GN=nikA_2 PE=4 SV=1 UPId=UP000254088 PPId=UP000000625	Periplasmic
+A0A376THU9_ECOLX	Respiratory nitrate reductase 1 subunit delta OS=Escherichia coli OX=562 GN=narJ_2 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Cytoplasmic
+A0A8I2XZF8_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=JFD_03249 PE=4 SV=1 UPId=UP000658648 PPId=UP000000625	Cytoplasmic
+A0A2X3KLH4_ECOLX	Aspartate L-decarboxylase OS=Escherichia coli OX=562 GN=panD_1 PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Unknown
+A0A376Y376_ECOLX	S-adenosylmethionine synthetase OS=Escherichia coli OX=562 GN=metK_2 PE=4 SV=1 UPId=UP000254785 PPId=UP000000625	Cytoplasmic
+A0A376MIR6_ECOLX	Uronate isomerase OS=Escherichia coli OX=562 GN=uxaC_2 PE=3 SV=1 UPId=UP000254817 PPId=UP000000625	Unknown
+A0A376SPQ1_ECOLX	Group 4 capsule (G4C) polysaccharide, YmcB OS=Escherichia coli OX=562 GN=ymcB_2 PE=4 SV=1 UPId=UP000254180 PPId=UP000000625	Unknown
+A0A377C2F9_ECOLX	Xanthine dehydrogenase subunit XdhA OS=Escherichia coli OX=562 GN=hcrA_2 PE=4 SV=1 UPId=UP000254088 PPId=UP000000625	Unknown
+A0A377AKN0_ECOLX	2-amino-3-ketobutyrate coenzyme A ligase OS=Escherichia coli OX=562 GN=kbl_2 PE=3 SV=1 UPId=UP000254052 PPId=UP000000625	Unknown
+A0A3S4K5N5_ECOLX	Putative periplasmic acid stress chaperone OS=Escherichia coli OX=562 GN=hdeA PE=4 SV=1 UPId=UP000277930 PPId=UP000000625	Unknown
+A0A3S5DUJ3_ECOLX	DamX protein OS=Escherichia coli OX=562 GN=damX_2 PE=4 SV=1 UPId=UP000271797 PPId=UP000000625	Unknown
+A0A377BQ06_ECOLX	Glutamine synthetase OS=Escherichia coli OX=562 GN=glnA_1 PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A376MR28_ECOLX	Pantoate--beta-alanine ligase OS=Escherichia coli OX=562 GN=panC_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Unknown
+A0A377F8G2_ECOLX	Fructokinase OS=Escherichia coli OX=562 GN=mak PE=4 SV=1 UPId=UP000254255 PPId=UP000000625	Cytoplasmic
+A0A377ACB8_ECOLX	50S ribosomal protein L18 OS=Escherichia coli OX=562 GN=rplR PE=3 SV=1 UPId=UP000255543 PPId=UP000000625	Cytoplasmic
+A0A376KSN5_ECOLX	Dihydropyrimidine dehydrogenase OS=Escherichia coli OX=562 GN=yeiA_3 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A2X1NZJ0_ECOLX	Putative zinc-binding dehydrogenase OS=Escherichia coli OX=562 GN=yhdH_1 PE=4 SV=1 UPId=UP000250780 PPId=UP000000625	Unknown
+A0A377CXM2_ECOLX	L-fucose isomerase OS=Escherichia coli OX=562 GN=fucI_3 PE=4 SV=1 UPId=UP000254052 PPId=UP000000625	Cytoplasmic
+A0A376L0X1_ECOLX	2-keto-4-pentenoate hydratase OS=Escherichia coli OX=562 GN=mhpD_2 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A376TU64_ECOLX	3-mercaptopyruvate sulfurtransferase OS=Escherichia coli OX=562 GN=sseA_1 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Periplasmic
+A0A2W6QBS2_ECOLX	CTP synthase (glutamine hydrolyzing) (Fragment) OS=Escherichia coli OX=562 GN=pyrG PE=3 SV=1 UPId=UP000249482 PPId=UP000000625	Cytoplasmic
+A0A377DFC2_ECOLX	NADH-quinone oxidoreductase subunit OS=Escherichia coli OX=562 GN=nuoA_2 PE=3 SV=1 UPId=UP000254052 PPId=UP000000625	CytoplasmicMembrane
+A0A376MR32_ECOLX	CreA protein OS=Escherichia coli OX=562 GN=creA PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Unknown
+A0A376VP55_ECOLX	Putative outer membrane usher protein OS=Escherichia coli OX=562 GN=htrE_4 PE=4 SV=1 UPId=UP000254495 PPId=UP000000625	OuterMembrane
+A0A228ZSI6_ECOLX	Actin, cytoplasmic 2 OS=Escherichia coli OX=562 GN=CDL37_28835 PE=4 SV=1 UPId=UP000214591 PPId=UP000000625	Cytoplasmic
+A0A7H9SFH4_ECOLX	Uncharacterized protein OS=Escherichia coli OX=562 GN=HVY77_16695 PE=4 SV=1 UPId=UP000512322 PPId=UP000000625	Unknown
+A0A377E6N8_ECOLX	Peptidoglycan-associated protein OS=Escherichia coli OX=562 GN=pal PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	OuterMembrane
+A0A447XXJ1_ECOLX	Peroxiredoxin (Osmotically-inducible protein C) OS=Escherichia coli OX=562 GN=osmC_1 PE=4 SV=1 UPId=UP000277930 PPId=UP000000625	Cytoplasmic
+A0A2X3M7Y9_ECOLX	Argininosuccinate lyase OS=Escherichia coli OX=562 GN=argH_1 PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Unknown
+A0A376P2K1_ECOLX	Cysteine--tRNA ligase OS=Escherichia coli OX=562 GN=cysS_2 PE=3 SV=1 UPId=UP000254428 PPId=UP000000625	Cytoplasmic
+A0A377ASG4_ECOLX	Peptidyl-prolyl cis-trans isomerase OS=Escherichia coli OX=562 GN=fklB PE=3 SV=1 UPId=UP000254052 PPId=UP000000625	Cytoplasmic
+A0A376MK22_ECOLX	Bifunctional N-succinyldiaminopimelate-aminotransferase/acetylornithine transaminase protein OS=Escherichia coli OX=562 GN=argD_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Unknown
+A0A6L8ZB51_ECOLX	Pyruvate:ferredoxin (Flavodoxin) oxidoreductase (Fragment) OS=Escherichia coli OX=562 GN=GUI33_29605 PE=4 SV=1 UPId=UP000481708 PPId=UP000000625	Cytoplasmic
+A0A2W6PUV2_ECOLX	Glutamate dehydrogenase (Fragment) OS=Escherichia coli OX=562 GN=DNQ45_27270 PE=3 SV=1 UPId=UP000249482 PPId=UP000000625	OuterMembrane
+A0A376KKZ5_ECOLX	Bifunctional dihydroneopterin aldolase/dihydroneopterin triphosphate 2'-epimerase OS=Escherichia coli OX=562 GN=folB_2 PE=4 SV=1 UPId=UP000255460 PPId=UP000000625	Unknown
+A0A377B3S0_ECOLX	Citrate lyase subunit beta OS=Escherichia coli OX=562 GN=citE PE=4 SV=1 UPId=UP000254052 PPId=UP000000625	Cytoplasmic
+A0A377CFQ9_ECOLX	Host factor-I protein (HF-I) OS=Escherichia coli OX=562 GN=hfq_1 PE=4 SV=1 UPId=UP000254255 PPId=UP000000625	Cytoplasmic
+A0A5P0PZD0_ECOLX	Ubiquitin (Fragment) OS=Escherichia coli OX=562 GN=EI021_29705 PE=4 SV=1 UPId=UP000326473 PPId=UP000000625	Unknown
+A0A377B6S4_ECOLX	Soluble pyridine nucleotide transhydrogenase OS=Escherichia coli OX=562 GN=sthA_2 PE=4 SV=1 UPId=UP000254052 PPId=UP000000625	Cytoplasmic
+A0A377A114_ECOLX	Monothiol glutaredoxin YdhD OS=Escherichia coli OX=562 GN=ydhD_1 PE=4 SV=1 UPId=UP000255543 PPId=UP000000625	Unknown
+A0A2X1NBQ5_ECOLX	Phosphate-binding protein PstS OS=Escherichia coli OX=562 GN=pstS_1 PE=3 SV=1 UPId=UP000250780 PPId=UP000000625	Periplasmic
+A0A376ZPE4_ECOLX	Putative lipoprotein OS=Escherichia coli OX=562 GN=NCTC8179_00965 PE=4 SV=1 UPId=UP000255543 PPId=UP000000625	Unknown
+A0A376MT89_ECOLX	Citrate lyase subunit alpha OS=Escherichia coli OX=562 GN=citF_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Cytoplasmic
+A0A376LHX0_ECOLX	Glutamate-1-semialdehyde 2,1-aminomutase OS=Escherichia coli OX=562 GN=hemL_2 PE=4 SV=1 UPId=UP000254877 PPId=UP000000625	Cytoplasmic
+A0A2X1L3B7_ECOLX	Xaa-Pro dipeptidase OS=Escherichia coli OX=562 GN=pepQ_2 PE=4 SV=1 UPId=UP000250561 PPId=UP000000625	Unknown
+A0A376RLV2_ECOLX	3-oxoacyl-ACP synthase OS=Escherichia coli OX=562 GN=fabF_2 PE=4 SV=1 UPId=UP000254159 PPId=UP000000625	CytoplasmicMembrane
+A0A376TTF6_ECOLX	Ribose-5-phosphate isomerase A OS=Escherichia coli OX=562 GN=rpiA_3 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Unknown
+A0A377BWE3_ECOLX	Peptidyl-prolyl cis-trans isomerase OS=Escherichia coli OX=562 GN=slyD PE=3 SV=1 UPId=UP000254088 PPId=UP000000625	Cytoplasmic
+A0A377DBV4_ECOLX	Phospholipase A1 OS=Escherichia coli OX=562 GN=pldA_1 PE=3 SV=1 UPId=UP000254174 PPId=UP000000625	OuterMembrane
+A0A376MU77_ECOLX	Arginine/ornithine ABC transporter substrate-binding protein OS=Escherichia coli OX=562 GN=artJ_1 PE=4 SV=1 UPId=UP000254817 PPId=UP000000625	Periplasmic
+A0A3S4KGZ9_ECOLX	Succinate dehydrogenase flavoprotein subunit OS=Escherichia coli OX=562 GN=sdhA_1 PE=4 SV=1 UPId=UP000277930 PPId=UP000000625	CytoplasmicMembrane
+A0A2X3KDQ1_ECOLX	Putative translation initiation inhibitor OS=Escherichia coli OX=562 GN=yoaB PE=4 SV=1 UPId=UP000250991 PPId=UP000000625	Cytoplasmic
+A0A5B9ASM8_ECOLX	50S ribosomal protein L17 OS=Escherichia coli OX=562 GN=rplQ PE=3 SV=1 UPId=UP000321162 PPId=UP000000625	Cytoplasmic
+A0A376X9D6_ECOLX	Multifunctional fatty acid oxidation complex subunit alpha OS=Escherichia coli OX=562 GN=fadB_4 PE=4 SV=1 UPId=UP000254503 PPId=UP000000625	Cytoplasmic
+A0A2X1MWA7_ECOLX	Cell division factor ZapB OS=Escherichia coli OX=562 GN=zapB PE=4 SV=1 UPId=UP000250780 PPId=UP000000625	Unknown
+A0A377A3K9_ECOLX	D-serine ammonia-lyase OS=Escherichia coli OX=562 GN=dsdA_2 PE=4 SV=1 UPId=UP000255543 PPId=UP000000625	Cytoplasmic
+A0A1V2GBZ8_ECOLX	O-succinylhomoserine (Thiol)-lyase OS=Escherichia coli OX=562 GN=BXT93_19175 PE=3 SV=1 UPId=UP000188967 PPId=UP000000625	Cytoplasmic
+A0A484YZ82_ECOLX	30S ribosomal protein S16 OS=Escherichia coli OX=562 GN=rpsP PE=3 SV=1 UPId=UP000372890 PPId=UP000000625	Cytoplasmic
+A0A6D0EHW4_ECOLX	Phosphoglycerate mutase (2,3-diphosphoglycerate-independent) (Fragment) OS=Escherichia coli OX=562 GN=gpmI PE=3 SV=1 UPId=UP000430011 PPId=UP000000625	Cytoplasmic
+A0A376TP22_ECOLX	Protein YihD OS=Escherichia coli OX=562 GN=yihD_2 PE=4 SV=1 UPId=UP000254405 PPId=UP000000625	Unknown
+A0A8G2HE80_ECOLX	Acidic protein MsyB OS=Escherichia coli OX=562 GN=msyB_1 PE=4 SV=1 UPId=UP000254718 PPId=UP000000625	Unknown
+A0A376P7V4_ECOLX	Putative alpha helix protein OS=Escherichia coli OX=562 GN=yeeX_2 PE=3 SV=1 UPId=UP000254428 PPId=UP000000625	Unknown
+K4Y7I2_ECOLX	Ferric uptake regulation protein OS=Escherichia coli O111:H11 str. CVM9455 OX=1165939 GN=fur PE=3 SV=1 UPId=UP000006328 PPId=UP000000625	Cytoplasmic
+A0A0H2YVT3_ECOK1	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ OS=Escherichia coli O1:K1 / APEC OX=405955 GN=fabZ PE=3 SV=1 UPId=UP000008216 PPId=UP000000625	Cytoplasmic
+I2UJY0_ECOLX	Serine protease pic autotransporter OS=Escherichia coli 4.0522 OX=869681 GN=pic PE=4 SV=1 UPId=UP000004262 PPId=UP000000625	Extracellular
+I2UNU3_ECOLX	DegT/DnrJ/EryC1/StrS aminotransferase family protein OS=Escherichia coli 4.0522 OX=869681 GN=EC40522_2361 PE=3 SV=1 UPId=UP000004262 PPId=UP000000625	Cytoplasmic
+A0A0K9TFT1_ECOLX	Phage integrase OS=Escherichia coli M114 OX=656416 GN=ERYG_01272 PE=4 SV=1 UPId=UP000037133 PPId=UP000000625	Unknown
+A0A3P6L4I9_SHIDY	Sulfatase OS=Shigella dysenteriae OX=622 GN=betC PE=3 SV=1 UPId=UP000274225 PPId=UP000000625	Unknown
+A0A3P6KEZ3_SHIDY	Alkyl hydroperoxide reductase protein C22 OS=Shigella dysenteriae OX=622 GN=ahpC_1 PE=4 SV=1 UPId=UP000274225 PPId=UP000000625	Cytoplasmic
+Q7DBX3_ECO57	Tellurium resistance protein TerZ OS=Escherichia coli O157:H7 OX=83334 GN=terZ PE=4 SV=1 UPId=UP000000558 PPId=UP000000625	Cytoplasmic
+A0A0H3JF42_ECO57	Tellurium resistance protein TerB OS=Escherichia coli O157:H7 OX=83334 GN=terB PE=4 SV=1 UPId=UP000000558 PPId=UP000000625	Cytoplasmic
+A0A0T7C0V9_ECO57	Integrase catalytic domain-containing protein OS=Escherichia coli O157:H7 OX=83334 PE=4 SV=1 UPId=UP000000558 PPId=UP000000625	Unknown
+Q8XAL8_ECO57	Mutator family transposase OS=Escherichia coli O157:H7 OX=83334 GN=ECs_1816 PE=3 SV=1 UPId=UP000000558 PPId=UP000000625	Unknown
+W1EVA6_ECOLX	Alkyl hydroperoxide reductase subunit F OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	CytoplasmicMembrane
+W1EQZ0_ECOLX	Uncharacterized protein OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1EV92_ECOLX	4-hydroxy-tetrahydrodipicolinate synthase OS=Escherichia coli ISC7 OX=1432555 GN=dapA PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1F872_ECOLX	Putrescine-binding periplasmic protein OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Periplasmic
+W1ESJ5_ECOLX	Transketolase OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Periplasmic
+W1F098_ECOLX	PTS system mannose-specific EIIAB component OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1ETT4_ECOLX	Shikimate kinase I OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Unknown
+W1F5H1_ECOLX	Aminoacyl-histidine dipeptidase (Peptidase D) OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1EUR7_ECOLX	UPF0149 exported protein YgfB OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1EVD7_ECOLX	Outer membrane protein assembly factor BamB OS=Escherichia coli ISC7 OX=1432555 GN=bamB PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	OuterMembrane
+W1ES56_ECOLX	Free methionine-(R)-sulfoxide reductase, contains GAF domain OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Unknown
+W1EYF4_ECOLX	Protein ydhR OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Unknown
+W1F7S9_ECOLX	IMP cyclohydrolase / Phosphoribosylaminoimidazolecarboxamide formyltransferase OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1F7Q9_ECOLX	Aspartate-semialdehyde dehydrogenase OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1EXQ7_ECOLX	Cytosine deaminase OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Cytoplasmic
+W1F195_ECOLX	NADH-ubiquinone oxidoreductase chain B OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	Unknown
+W1EVI3_ECOLX	Thymidine phosphorylase OS=Escherichia coli ISC7 OX=1432555 PE=3 SV=1 UPId=UP000019199 PPId=UP000000625	Unknown
+W1ETA4_ECOLX	Starvation lipoprotein Slp OS=Escherichia coli ISC7 OX=1432555 PE=4 SV=1 UPId=UP000019199 PPId=UP000000625	OuterMembrane
+W1WH99_ECOLX	Sensor histidine kinase DpiB (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC02398G0001 PE=4 SV=1 UPId=UP000018853 PPId=UP000000625	CytoplasmicMembrane
+W1XBG5_ECOLX	Malate synthase (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC00294G0001 PE=4 SV=1 UPId=UP000018853 PPId=UP000000625	Cytoplasmic
+W1XEC2_ECOLX	Protein-export protein SecB (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC00085G0001 PE=3 SV=1 UPId=UP000018853 PPId=UP000000625	Cytoplasmic
+W1W747_ECOLX	Maltose operon periplasmic protein (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC02674G0001 PE=4 SV=1 UPId=UP000018853 PPId=UP000000625	Periplasmic
+W1W5Q0_ECOLX	N utilization substance protein B-like protein (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC02793G0001 PE=3 SV=1 UPId=UP000018853 PPId=UP000000625	Unknown
+W1X958_ECOLX	Xanthine dehydrogenase FAD-binding subunit (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC00567G0002 PE=4 SV=1 UPId=UP000018853 PPId=UP000000625	Cytoplasmic
+W1W9J2_ECOLX	Uncharacterized protein (Fragment) OS=Escherichia coli DORA_A_5_14_21 OX=1403943 GN=Q609_ECAC02578G0001 PE=4 SV=1 UPId=UP000018853 PPId=UP000000625	Unknown
+I6EL19_SHIBO	AMP nucleosidase OS=Shigella boydii 4444-74 OX=766140 GN=SB444474_0907 PE=4 SV=1 UPId=UP000004199 PPId=UP000000625	Cytoplasmic
+A0A370V2B8_9ESCH	DNA-binding protein StpA OS=Escherichia marmotae OX=1499973 GN=stpA_2 PE=3 SV=1 UPId=UP000254454 PPId=UP000000625	Cytoplasmic
+A0A370VB07_9ESCH	UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronate 2-epimerase OS=Escherichia marmotae OX=1499973 GN=wbpI PE=3 SV=1 UPId=UP000254454 PPId=UP000000625	Cytoplasmic
+E1JG83_ECOLX	6-phosphogluconate dehydrogenase, decarboxylating OS=Escherichia coli MS 124-1 OX=679205 GN=gnd PE=3 SV=1 UPId=UP000003390 PPId=UP000000625	Cytoplasmic
+6PGD_ECOLI	6-phosphogluconate dehydrogenase, decarboxylating OS=Escherichia coli (strain K12) OX=83333 GN=gnd PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+AAT_ECOLI	Aspartate aminotransferase OS=Escherichia coli (strain K12) OX=83333 GN=aspC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ACEA_ECOLI	Isocitrate lyase OS=Escherichia coli (strain K12) OX=83333 GN=aceA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ACKA_ECOLI	Acetate kinase OS=Escherichia coli (strain K12) OX=83333 GN=ackA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ACNA_ECOLI	Aconitate hydratase A OS=Escherichia coli (strain K12) OX=83333 GN=acnA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ACNB_ECOLI	Aconitate hydratase B OS=Escherichia coli (strain K12) OX=83333 GN=acnB PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ACRB_ECOLI	Multidrug efflux pump subunit AcrB OS=Escherichia coli (strain K12) OX=83333 GN=acrB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+ADHE_ECOLI	Bifunctional aldehyde-alcohol dehydrogenase AdhE OS=Escherichia coli (strain K12) OX=83333 GN=adhE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ALF1_ECOLI	Fructose-bisphosphate aldolase class 1 OS=Escherichia coli (strain K12) OX=83333 GN=fbaB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Unknown
+ALKH_ECOLI	KHG/KDPG aldolase OS=Escherichia coli (strain K12) OX=83333 GN=eda PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+AMPA_SHIFL	Probable cytosol aminopeptidase OS=Shigella flexneri OX=623 GN=pepA PE=3 SV=1 UPId=UP000001006 PPId=UP000000625	Cytoplasmic
+AMPN_ECOLI	Aminopeptidase N OS=Escherichia coli (strain K12) OX=83333 GN=pepN PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+APHA_ECOLI	Class B acid phosphatase OS=Escherichia coli (strain K12) OX=83333 GN=aphA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+ARGT_ECOLI	Lysine/arginine/ornithine-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=argT PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Periplasmic
+ARTI_ECOLI	Putative ABC transporter arginine-binding protein 2 OS=Escherichia coli (strain K12) OX=83333 GN=artI PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Periplasmic
+ASPA_ECOLI	Aspartate ammonia-lyase OS=Escherichia coli (strain K12) OX=83333 GN=aspA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ASPG2_ECOLI	L-asparaginase 2 OS=Escherichia coli (strain K12) OX=83333 GN=ansB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Periplasmic
+ATPA_ECOLI	ATP synthase subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=atpA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ATPB_ECOLI	ATP synthase subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=atpD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ATPL_ECOLI	ATP synthase subunit c OS=Escherichia coli (strain K12) OX=83333 GN=atpE PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+BAMA_ECOLI	Outer membrane protein assembly factor BamA OS=Escherichia coli (strain K12) OX=83333 GN=bamA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+BAMC_ECOLI	Outer membrane protein assembly factor BamC OS=Escherichia coli (strain K12) OX=83333 GN=bamC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+BAMD_ECOLI	Outer membrane protein assembly factor BamD OS=Escherichia coli (strain K12) OX=83333 GN=bamD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+BGLX_ECOLI	Periplasmic beta-glucosidase OS=Escherichia coli (strain K12) OX=83333 GN=bglX PE=3 SV=2 UPId=UP000000625 PPId=UP000000625	Periplasmic
+BTUB_ECOLI	Vitamin B12 transporter BtuB OS=Escherichia coli (strain K12) OX=83333 GN=btuB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+CAN_ECOLI	Carbonic anhydrase 2 OS=Escherichia coli (strain K12) OX=83333 GN=can PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CDD_ECOLI	Cytidine deaminase OS=Escherichia coli (strain K12) OX=83333 GN=cdd PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+CH10_ECOLI	Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CH60_ECOLI	Chaperonin GroEL OS=Escherichia coli (strain K12) OX=83333 GN=groEL PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CINAL_ECOLI	NMN amidohydrolase-like protein YfaY OS=Escherichia coli (strain K12) OX=83333 GN=yfaY PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+CLPB_ECOLI	Chaperone protein ClpB OS=Escherichia coli (strain K12) OX=83333 GN=clpB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CSPA_ECOLI	Cold shock protein CspA OS=Escherichia coli (strain K12) OX=83333 GN=cspA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CSPC_ECOLI	Cold shock-like protein CspC OS=Escherichia coli (strain K12) OX=83333 GN=cspC PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CSPE_ECOLI	Cold shock-like protein CspE OS=Escherichia coli (strain K12) OX=83333 GN=cspE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CSPG_ECOLI	Cold shock-like protein CspG OS=Escherichia coli (strain K12) OX=83333 GN=cspG PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+CYDA_ECOLI	Cytochrome bd-I ubiquinol oxidase subunit 1 OS=Escherichia coli (strain K12) OX=83333 GN=cydA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+CYSK_ECOLI	Cysteine synthase A OS=Escherichia coli (strain K12) OX=83333 GN=cysK PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DAPD_ECOLI	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=dapD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DBHB_ECOLI	DNA-binding protein HU-beta OS=Escherichia coli (strain K12) OX=83333 GN=hupB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DCEB_ECOLI	Glutamate decarboxylase beta OS=Escherichia coli (strain K12) OX=83333 GN=gadB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DCP_ECOLI	Dipeptidyl carboxypeptidase OS=Escherichia coli (strain K12) OX=83333 GN=dcp PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DCYD_ECOLI	D-cysteine desulfhydrase OS=Escherichia coli (strain K12) OX=83333 GN=dcyD PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DEGP_ECOLI	Periplasmic serine endoprotease DegP OS=Escherichia coli (strain K12) OX=83333 GN=degP PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+DEOB_ECOLI	Phosphopentomutase OS=Escherichia coli (strain K12) OX=83333 GN=deoB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DEOC_ECOLI	Deoxyribose-phosphate aldolase OS=Escherichia coli (strain K12) OX=83333 GN=deoC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DEOD_ECOLI	Purine nucleoside phosphorylase DeoD-type OS=Escherichia coli (strain K12) OX=83333 GN=deoD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DGAL_ECOLI	D-galactose-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=mglB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+DLDH_ECOLI	Dihydrolipoyl dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=lpdA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DMSB_ECOLI	Anaerobic dimethyl sulfoxide reductase chain B OS=Escherichia coli (strain K12) OX=83333 GN=dmsB PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Unknown
+DNAK_ECOLI	Chaperone protein DnaK OS=Escherichia coli (strain K12) OX=83333 GN=dnaK PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DPO1_ECOLI	DNA polymerase I OS=Escherichia coli (strain K12) OX=83333 GN=polA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DPPA_ECOLI	Dipeptide-binding protein OS=Escherichia coli (strain K12) OX=83333 GN=dppA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+DPS_ECOLI	DNA protection during starvation protein OS=Escherichia coli (strain K12) OX=83333 GN=dps PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+DUT_ECOLI	Deoxyuridine 5'-triphosphate nucleotidohydrolase OS=Escherichia coli (strain K12) OX=83333 GN=dut PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Unknown
+ECOT_ECOLI	Ecotin OS=Escherichia coli (strain K12) OX=83333 GN=eco PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+EFG_ECOLI	Elongation factor G OS=Escherichia coli (strain K12) OX=83333 GN=fusA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+EFTS_ECOLI	Elongation factor Ts OS=Escherichia coli (strain K12) OX=83333 GN=tsf PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+EFTU1_ECOLI	Elongation factor Tu 1 OS=Escherichia coli (strain K12) OX=83333 GN=tufA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ENO_ECOLI	Enolase OS=Escherichia coli (strain K12) OX=83333 GN=eno PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+EX7S_ECOLI	Exodeoxyribonuclease 7 small subunit OS=Escherichia coli (strain K12) OX=83333 GN=xseB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FABA_ECOLI	3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase OS=Escherichia coli (strain K12) OX=83333 GN=fabA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FABG_ECOLI	3-oxoacyl-[acyl-carrier-protein] reductase FabG OS=Escherichia coli (strain K12) OX=83333 GN=fabG PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FABI_ECOLI	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI OS=Escherichia coli (strain K12) OX=83333 GN=fabI PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+FADA_ECOLI	3-ketoacyl-CoA thiolase FadA OS=Escherichia coli (strain K12) OX=83333 GN=fadA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FADL_ECOLI	Long-chain fatty acid transport protein OS=Escherichia coli (strain K12) OX=83333 GN=fadL PE=1 SV=5 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+FDOG_ECOLI	Formate dehydrogenase-O major subunit OS=Escherichia coli (strain K12) OX=83333 GN=fdoG PE=1 SV=5 UPId=UP000000625 PPId=UP000000625	Periplasmic
+FECA_ECOLI	Fe(3+) dicitrate transport protein FecA OS=Escherichia coli (strain K12) OX=83333 GN=fecA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+FHUA_ECOLI	Ferrichrome outer membrane transporter/phage receptor OS=Escherichia coli (strain K12) OX=83333 GN=fhuA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+FKBA_ECOLI	FKBP-type peptidyl-prolyl cis-trans isomerase FkpA OS=Escherichia coli (strain K12) OX=83333 GN=fkpA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+FOLX_ECOLI	Dihydroneopterin triphosphate 2'-epimerase OS=Escherichia coli (strain K12) OX=83333 GN=folX PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FRDA_ECOLI	Fumarate reductase flavoprotein subunit OS=Escherichia coli (strain K12) OX=83333 GN=frdA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+FRDB_ECOLI	Fumarate reductase iron-sulfur subunit OS=Escherichia coli (strain K12) OX=83333 GN=frdB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+FTNA_ECOLI	Bacterial non-heme ferritin OS=Escherichia coli (strain K12) OX=83333 GN=ftnA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FUCM_ECOLI	L-fucose mutarotase OS=Escherichia coli (strain K12) OX=83333 GN=fucU PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FUMA_ECOLI	Fumarate hydratase class I, aerobic OS=Escherichia coli (strain K12) OX=83333 GN=fumA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+FUMB_ECOLI	Fumarate hydratase class I, anaerobic OS=Escherichia coli (strain K12) OX=83333 GN=fumB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+G3P1_ECOLI	Glyceraldehyde-3-phosphate dehydrogenase A OS=Escherichia coli (strain K12) OX=83333 GN=gapA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+G6PD_ECOLI	Glucose-6-phosphate 1-dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=zwf PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+G6PI_ECOLI	Glucose-6-phosphate isomerase OS=Escherichia coli (strain K12) OX=83333 GN=pgi PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GCH1_ECOLI	GTP cyclohydrolase 1 OS=Escherichia coli (strain K12) OX=83333 GN=folE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GCSP_ECOLI	Glycine dehydrogenase (decarboxylating) OS=Escherichia coli (strain K12) OX=83333 GN=gcvP PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GFCD_ECOLI	Uncharacterized lipoprotein GfcD OS=Escherichia coli (strain K12) OX=83333 GN=gfcD PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+GFCE_ECOLI	Putative polysaccharide export protein GfcE OS=Escherichia coli (strain K12) OX=83333 GN=gfcE PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+GLGC_ECOLI	Glucose-1-phosphate adenylyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=glgC PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GLMM_ECOLI	Phosphoglucosamine mutase OS=Escherichia coli (strain K12) OX=83333 GN=glmM PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GLMS_ECOLI	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] OS=Escherichia coli (strain K12) OX=83333 GN=glmS PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GLMU_ECOLI	Bifunctional protein GlmU OS=Escherichia coli (strain K12) OX=83333 GN=glmU PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GLNH_ECOLI	Glutamine-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=glnH PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+GLPK_ECOLI	Glycerol kinase OS=Escherichia coli (strain K12) OX=83333 GN=glpK PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GMHA_ECOLI	Phosphoheptose isomerase OS=Escherichia coli (strain K12) OX=83333 GN=gmhA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GNSA_ECOLI	Protein GnsA OS=Escherichia coli (strain K12) OX=83333 GN=gnsA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+GPMA_ECOLI	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase OS=Escherichia coli (strain K12) OX=83333 GN=gpmA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GPMI_ECOLI	2,3-bisphosphoglycerate-independent phosphoglycerate mutase OS=Escherichia coli (strain K12) OX=83333 GN=gpmI PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GRCA_ECOLI	Autonomous glycyl radical cofactor OS=Escherichia coli (strain K12) OX=83333 GN=grcA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GREA_ECOLI	Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GRPE_ECOLI	Protein GrpE OS=Escherichia coli (strain K12) OX=83333 GN=grpE PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GSHR_ECOLI	Glutathione reductase OS=Escherichia coli (strain K12) OX=83333 GN=gor PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GUAA_ECOLI	GMP synthase [glutamine-hydrolyzing] OS=Escherichia coli (strain K12) OX=83333 GN=guaA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+GYRA_ECOLI	DNA gyrase subunit A OS=Escherichia coli (strain K12) OX=83333 GN=gyrA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HDEB_ECOLI	Acid stress chaperone HdeB OS=Escherichia coli (strain K12) OX=83333 GN=hdeB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+HDHA_ECOLI	7alpha-hydroxysteroid dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=hdhA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HEM2_ECOLI	Delta-aminolevulinic acid dehydratase OS=Escherichia coli (strain K12) OX=83333 GN=hemB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HFLK_ECOLI	Modulator of FtsH protease HflK OS=Escherichia coli (strain K12) OX=83333 GN=hflK PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+HINT_ECOLI	Purine nucleoside phosphoramidase OS=Escherichia coli (strain K12) OX=83333 GN=hinT PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HISJ_ECOLI	Histidine-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=hisJ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+HLDD_ECOLI	ADP-L-glycero-D-manno-heptose-6-epimerase OS=Escherichia coli (strain K12) OX=83333 GN=hldD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HNS_ECOLI	DNA-binding protein H-NS OS=Escherichia coli (strain K12) OX=83333 GN=hns PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HSLO_ECOLI	33 kDa chaperonin OS=Escherichia coli (strain K12) OX=83333 GN=hslO PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HSLU_ECOLI	ATP-dependent protease ATPase subunit HslU OS=Escherichia coli (strain K12) OX=83333 GN=hslU PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HSLV_ECOLI	ATP-dependent protease subunit HslV OS=Escherichia coli (strain K12) OX=83333 GN=hslV PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+HTPG_ECOLI	Chaperone protein HtpG OS=Escherichia coli (strain K12) OX=83333 GN=htpG PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+IDH_ECOLI	Isocitrate dehydrogenase [NADP] OS=Escherichia coli (strain K12) OX=83333 GN=icd PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+IF1_ECOLI	Translation initiation factor IF-1 OS=Escherichia coli (strain K12) OX=83333 GN=infA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+IF2_ECOLI	Translation initiation factor IF-2 OS=Escherichia coli (strain K12) OX=83333 GN=infB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+IF3_ECOLI	Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+IHFA_ECOLI	Integration host factor subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=ihfA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ILVC_ECOLI	Ketol-acid reductoisomerase (NADP(+)) OS=Escherichia coli (strain K12) OX=83333 GN=ilvC PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+KATG_ECOLI	Catalase-peroxidase OS=Escherichia coli (strain K12) OX=83333 GN=katG PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+KPRS_ECOLI	Ribose-phosphate pyrophosphokinase OS=Escherichia coli (strain K12) OX=83333 GN=prs PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+KPYK1_ECOLI	Pyruvate kinase I OS=Escherichia coli (strain K12) OX=83333 GN=pykF PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+KPYK2_ECOLI	Pyruvate kinase II OS=Escherichia coli (strain K12) OX=83333 GN=pykA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+LAMB_ECOLI	Maltoporin OS=Escherichia coli (strain K12) OX=83333 GN=lamB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+LEU3_ECOLI	3-isopropylmalate dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=leuB PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+LIVJ_ECOLI	Leu/Ile/Val-binding protein OS=Escherichia coli (strain K12) OX=83333 GN=livJ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+LLDD_ECOLI	L-lactate dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=lldD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+LPOA_ECOLI	Penicillin-binding protein activator LpoA OS=Escherichia coli (strain K12) OX=83333 GN=lpoA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+LPP_ECOLI	Major outer membrane lipoprotein Lpp OS=Escherichia coli (strain K12) OX=83333 GN=lpp PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+LPTD_ECOLI	LPS-assembly protein LptD OS=Escherichia coli (strain K12) OX=83333 GN=lptD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+LPXA_ECOLI	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=lpxA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+MALE_ECOLI	Maltose/maltodextrin-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=malE PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+MALQ_ECOLI	4-alpha-glucanotransferase OS=Escherichia coli (strain K12) OX=83333 GN=malQ PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+MANA_ECOLI	Mannose-6-phosphate isomerase OS=Escherichia coli (strain K12) OX=83333 GN=manA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+MASZ_ECOLI	Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+MDH_ECOLI	Malate dehydrogenase OS=Escherichia coli (strain K12) OX=83333 GN=mdh PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+METQ_ECOLI	D-methionine-binding lipoprotein MetQ OS=Escherichia coli (strain K12) OX=83333 GN=metQ PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+MHPC_ECOLI	2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase OS=Escherichia coli (strain K12) OX=83333 GN=mhpC PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+MIPA_ECOLI	MltA-interacting protein OS=Escherichia coli (strain K12) OX=83333 GN=mipA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+MLAC_ECOLI	Intermembrane phospholipid transport system binding protein MlaC OS=Escherichia coli (strain K12) OX=83333 GN=mlaC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+MOAB_ECOLI	Molybdenum cofactor biosynthesis protein B OS=Escherichia coli (strain K12) OX=83333 GN=moaB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+MOAD_ECOLI	Molybdopterin synthase sulfur carrier subunit OS=Escherichia coli (strain K12) OX=83333 GN=moaD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Unknown
+MOG_ECOLI	Molybdopterin adenylyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=mog PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NAGA_ECOLI	N-acetylglucosamine-6-phosphate deacetylase OS=Escherichia coli (strain K12) OX=83333 GN=nagA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NANA_ECOLI	N-acetylneuraminate lyase OS=Escherichia coli (strain K12) OX=83333 GN=nanA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NAPA_ECOLI	Periplasmic nitrate reductase OS=Escherichia coli (strain K12) OX=83333 GN=napA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Periplasmic
+NARG_ECOLI	Respiratory nitrate reductase 1 alpha chain OS=Escherichia coli (strain K12) OX=83333 GN=narG PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+NFSB_ECOLI	Oxygen-insensitive NAD(P)H nitroreductase OS=Escherichia coli (strain K12) OX=83333 GN=nfsB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+NFUA_ECOLI	Fe/S biogenesis protein NfuA OS=Escherichia coli (strain K12) OX=83333 GN=nfuA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NMPC_ECOLI	Putative outer membrane porin protein NmpC OS=Escherichia coli (strain K12) OX=83333 GN=nmpC PE=5 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+NUOCD_ECOLI	NADH-quinone oxidoreductase subunit C/D OS=Escherichia coli (strain K12) OX=83333 GN=nuoC PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NUOG_ECOLI	NADH-quinone oxidoreductase subunit G OS=Escherichia coli (strain K12) OX=83333 GN=nuoG PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+NUSA_ECOLI	Transcription termination/antitermination protein NusA OS=Escherichia coli (strain K12) OX=83333 GN=nusA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ODO1_ECOLI	2-oxoglutarate dehydrogenase E1 component OS=Escherichia coli (strain K12) OX=83333 GN=sucA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ODO2_ECOLI	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex OS=Escherichia coli (strain K12) OX=83333 GN=sucB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ODP1_ECOLI	Pyruvate dehydrogenase E1 component OS=Escherichia coli (strain K12) OX=83333 GN=aceE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+ODP2_ECOLI	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex OS=Escherichia coli (strain K12) OX=83333 GN=aceF PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+OMPA_ECOLI	Outer membrane protein A OS=Escherichia coli (strain K12) OX=83333 GN=ompA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OMPC_ECOLI	Outer membrane porin C OS=Escherichia coli (strain K12) OX=83333 GN=ompC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OMPF_ECOLI	Outer membrane porin F OS=Escherichia coli (strain K12) OX=83333 GN=ompF PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OMPT_ECOLI	Protease 7 OS=Escherichia coli (strain K12) OX=83333 GN=ompT PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OMPW_ECOLI	Outer membrane protein W OS=Escherichia coli (strain K12) OX=83333 GN=ompW PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OMPX_ECOLI	Outer membrane protein X OS=Escherichia coli (strain K12) OX=83333 GN=ompX PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+OPGG_ECOLI	Glucans biosynthesis protein G OS=Escherichia coli (strain K12) OX=83333 GN=mdoG PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+OPPA_ECOLI	Periplasmic oligopeptide-binding protein OS=Escherichia coli (strain K12) OX=83333 GN=oppA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Periplasmic
+PANB_ECOLI	3-methyl-2-oxobutanoate hydroxymethyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=panB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PCKA_ECOLI	Phosphoenolpyruvate carboxykinase (ATP) OS=Escherichia coli (strain K12) OX=83333 GN=pckA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PEPB_ECOLI	Peptidase B OS=Escherichia coli (strain K12) OX=83333 GN=pepB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PFKA_ECOLI	ATP-dependent 6-phosphofructokinase isozyme 1 OS=Escherichia coli (strain K12) OX=83333 GN=pfkA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PFLB_ECOLI	Formate acetyltransferase 1 OS=Escherichia coli (strain K12) OX=83333 GN=pflB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PGK_ECOLI	Phosphoglycerate kinase OS=Escherichia coli (strain K12) OX=83333 GN=pgk PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PHSM_ECOLI	Maltodextrin phosphorylase OS=Escherichia coli (strain K12) OX=83333 GN=malP PE=1 SV=7 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PNP_ECOLI	Polyribonucleotide nucleotidyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=pnp PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PPSA_ECOLI	Phosphoenolpyruvate synthase OS=Escherichia coli (strain K12) OX=83333 GN=ppsA PE=1 SV=5 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PROA_ECOLI	Gamma-glutamyl phosphate reductase OS=Escherichia coli (strain K12) OX=83333 GN=proA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PT1_ECOLI	Phosphoenolpyruvate-protein phosphotransferase OS=Escherichia coli (strain K12) OX=83333 GN=ptsI PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PTA_ECOLI	Phosphate acetyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=pta PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PTFAH_ECOLI	Multiphosphoryl transfer protein OS=Escherichia coli (strain K12) OX=83333 GN=fruB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PTHP_ECOLI	Phosphocarrier protein HPr OS=Escherichia coli (strain K12) OX=83333 GN=ptsH PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PUR8_ECOLI	Adenylosuccinate lyase OS=Escherichia coli (strain K12) OX=83333 GN=purB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PURA_ECOLI	Adenylosuccinate synthetase OS=Escherichia coli (strain K12) OX=83333 GN=purA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PYRB_ECOLI	Aspartate carbamoyltransferase catalytic subunit OS=Escherichia coli (strain K12) OX=83333 GN=pyrB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+PYRH_ECOLI	Uridylate kinase OS=Escherichia coli (strain K12) OX=83333 GN=pyrH PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RBSB_ECOLI	Ribose import binding protein RbsB OS=Escherichia coli (strain K12) OX=83333 GN=rbsB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+RCSF_ECOLI	Outer membrane lipoprotein RcsF OS=Escherichia coli (strain K12) OX=83333 GN=rcsF PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+RHO_ECOLI	Transcription termination factor Rho OS=Escherichia coli (strain K12) OX=83333 GN=rho PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RIR2_ECOLI	Ribonucleoside-diphosphate reductase 1 subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=nrdB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RISB_ECOLI	6,7-dimethyl-8-ribityllumazine synthase OS=Escherichia coli (strain K12) OX=83333 GN=ribE PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL10_ECOLI	50S ribosomal protein L10 OS=Escherichia coli (strain K12) OX=83333 GN=rplJ PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL13_ECOLI	50S ribosomal protein L13 OS=Escherichia coli (strain K12) OX=83333 GN=rplM PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL14_ECOLI	50S ribosomal protein L14 OS=Escherichia coli (strain K12) OX=83333 GN=rplN PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL15_ECOLI	50S ribosomal protein L15 OS=Escherichia coli (strain K12) OX=83333 GN=rplO PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL16_ECOLI	50S ribosomal protein L16 OS=Escherichia coli (strain K12) OX=83333 GN=rplP PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL1_ECOLI	50S ribosomal protein L1 OS=Escherichia coli (strain K12) OX=83333 GN=rplA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL20_ECOLI	50S ribosomal protein L20 OS=Escherichia coli (strain K12) OX=83333 GN=rplT PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL21_ECOLI	50S ribosomal protein L21 OS=Escherichia coli (strain K12) OX=83333 GN=rplU PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL22_ECOLI	50S ribosomal protein L22 OS=Escherichia coli (strain K12) OX=83333 GN=rplV PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL25_ECOLI	50S ribosomal protein L25 OS=Escherichia coli (strain K12) OX=83333 GN=rplY PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL28_ECOLI	50S ribosomal protein L28 OS=Escherichia coli (strain K12) OX=83333 GN=rpmB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL2_SHIDS	50S ribosomal protein L2 OS=Shigella dysenteriae serotype 1 (strain Sd197) OX=300267 GN=rplB PE=3 SV=1 UPId=UP000002716 PPId=UP000000625	Cytoplasmic
+RL30_ECOLI	50S ribosomal protein L30 OS=Escherichia coli (strain K12) OX=83333 GN=rpmD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL31B_ECOLI	50S ribosomal protein L31 type B OS=Escherichia coli (strain K12) OX=83333 GN=ykgM PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL3_ECOLI	50S ribosomal protein L3 OS=Escherichia coli (strain K12) OX=83333 GN=rplC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL4_ECOLI	50S ribosomal protein L4 OS=Escherichia coli (strain K12) OX=83333 GN=rplD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL5_ECOLI	50S ribosomal protein L5 OS=Escherichia coli (strain K12) OX=83333 GN=rplE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL6_ECOLI	50S ribosomal protein L6 OS=Escherichia coli (strain K12) OX=83333 GN=rplF PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RL7_ECOLI	50S ribosomal protein L7/L12 OS=Escherichia coli (strain K12) OX=83333 GN=rplL PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Unknown
+RNE_ECOLI	Ribonuclease E OS=Escherichia coli (strain K12) OX=83333 GN=rne PE=1 SV=6 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RPOB_ECOLI	DNA-directed RNA polymerase subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=rpoB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RPOC_ECOLI	DNA-directed RNA polymerase subunit beta' OS=Escherichia coli (strain K12) OX=83333 GN=rpoC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RPOZ_ECOLI	DNA-directed RNA polymerase subunit omega OS=Escherichia coli (strain K12) OX=83333 GN=rpoZ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS10_ECOLI	30S ribosomal protein S10 OS=Escherichia coli (strain K12) OX=83333 GN=rpsJ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS11_ECOLI	30S ribosomal protein S11 OS=Escherichia coli (strain K12) OX=83333 GN=rpsK PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS13_ECOLI	30S ribosomal protein S13 OS=Escherichia coli (strain K12) OX=83333 GN=rpsM PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS14_ECOLI	30S ribosomal protein S14 OS=Escherichia coli (strain K12) OX=83333 GN=rpsN PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS15_ECOLI	30S ribosomal protein S15 OS=Escherichia coli (strain K12) OX=83333 GN=rpsO PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS18_ECOLI	30S ribosomal protein S18 OS=Escherichia coli (strain K12) OX=83333 GN=rpsR PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS1_ECOLI	30S ribosomal protein S1 OS=Escherichia coli (strain K12) OX=83333 GN=rpsA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS20_ECOLI	30S ribosomal protein S20 OS=Escherichia coli (strain K12) OX=83333 GN=rpsT PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS2_ECOLI	30S ribosomal protein S2 OS=Escherichia coli (strain K12) OX=83333 GN=rpsB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS4_ECOLI	30S ribosomal protein S4 OS=Escherichia coli (strain K12) OX=83333 GN=rpsD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS5_ECOLI	30S ribosomal protein S5 OS=Escherichia coli (strain K12) OX=83333 GN=rpsE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS6_ECOLI	30S ribosomal protein S6 OS=Escherichia coli (strain K12) OX=83333 GN=rpsF PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS7_ECOLI	30S ribosomal protein S7 OS=Escherichia coli (strain K12) OX=83333 GN=rpsG PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS8_ECOLI	30S ribosomal protein S8 OS=Escherichia coli (strain K12) OX=83333 GN=rpsH PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+RS9_ESCF3	30S ribosomal protein S9 OS=Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CCUG 18766 / IAM 14443 / JCM 21226 / LMG 7866 / NBRC 102419 / NCTC 12128 / CDC 0568-73) OX=585054 GN=rpsI PE=3 SV=1 UPId=UP000000745 PPId=UP000000625	Cytoplasmic
+SDHB_ECOLI	Succinate dehydrogenase iron-sulfur subunit OS=Escherichia coli (strain K12) OX=83333 GN=sdhB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+SECD_ECOLI	Protein translocase subunit SecD OS=Escherichia coli (strain K12) OX=83333 GN=secD PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+SKP_ECOLI	Chaperone protein Skp OS=Escherichia coli (strain K12) OX=83333 GN=skp PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+SLYB_ECOLI	Outer membrane lipoprotein SlyB OS=Escherichia coli (strain K12) OX=83333 GN=slyB PE=2 SV=1 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+SODM_ECOLI	Superoxide dismutase [Mn] OS=Escherichia coli (strain K12) OX=83333 GN=sodA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Unknown
+SPY_ECOLI	Periplasmic chaperone Spy OS=Escherichia coli (strain K12) OX=83333 GN=spy PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+SSPA_ECOLI	Stringent starvation protein A OS=Escherichia coli (strain K12) OX=83333 GN=sspA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SSPB_ECOLI	Stringent starvation protein B OS=Escherichia coli (strain K12) OX=83333 GN=sspB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+STPA_ECOLI	DNA-binding protein StpA OS=Escherichia coli (strain K12) OX=83333 GN=stpA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SUCC_ECOLI	Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SUCD_ECOLI	Succinate--CoA ligase [ADP-forming] subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=sucD PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SUHB_ECOLI	Nus factor SuhB OS=Escherichia coli (strain K12) OX=83333 GN=suhB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYA_ECOLI	Alanine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=alaS PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYD_ECOLI	Aspartate--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=aspS PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYFA_ECO57	Phenylalanine--tRNA ligase alpha subunit OS=Escherichia coli O157:H7 OX=83334 GN=pheS PE=3 SV=1 UPId=UP000000558 PPId=UP000000625	Cytoplasmic
+SYFB_ECOLI	Phenylalanine--tRNA ligase beta subunit OS=Escherichia coli (strain K12) OX=83333 GN=pheT PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYGB_ECOLI	Glycine--tRNA ligase beta subunit OS=Escherichia coli (strain K12) OX=83333 GN=glyS PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYI_ECOLI	Isoleucine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=ileS PE=1 SV=5 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYL_ECOLI	Leucine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=leuS PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYN_ECOLI	Asparagine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=asnS PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYP_ECOLI	Proline--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=proS PE=1 SV=4 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYS_ECOLI	Serine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=serS PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+SYV_ECOLI	Valine--tRNA ligase OS=Escherichia coli (strain K12) OX=83333 GN=valS PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+TALB_ECOLI	Transaldolase B OS=Escherichia coli (strain K12) OX=83333 GN=talB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+THIO_ECOLI	Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+TIG_ECOLI	Trigger factor OS=Escherichia coli (strain K12) OX=83333 GN=tig PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+TOLB_ECOLI	Tol-Pal system protein TolB OS=Escherichia coli (strain K12) OX=83333 GN=tolB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+TOLC_ECOLI	Outer membrane protein TolC OS=Escherichia coli (strain K12) OX=83333 GN=tolC PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+TPIS_ECOLI	Triosephosphate isomerase OS=Escherichia coli (strain K12) OX=83333 GN=tpiA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+TPX_ECOLI	Thiol peroxidase OS=Escherichia coli (strain K12) OX=83333 GN=tpx PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Periplasmic
+TREC_ECOLI	Trehalose-6-phosphate hydrolase OS=Escherichia coli (strain K12) OX=83333 GN=treC PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+UCPA_ECOLI	Oxidoreductase UcpA OS=Escherichia coli (strain K12) OX=83333 GN=ucpA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+UDP_ECOLI	Uridine phosphorylase OS=Escherichia coli (strain K12) OX=83333 GN=udp PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+USHA_ECOLI	Protein UshA OS=Escherichia coli (strain K12) OX=83333 GN=ushA PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Periplasmic
+USPD_ECOLI	Universal stress protein D OS=Escherichia coli (strain K12) OX=83333 GN=uspD PE=2 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+USPG_ECOLI	Universal stress protein UP12 OS=Escherichia coli (strain K12) OX=83333 GN=uspG PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+WZZB_ECOLI	Chain length determinant protein OS=Escherichia coli (strain K12) OX=83333 GN=wzzB PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+XDHD_ECOLI	Probable hypoxanthine oxidase XdhD OS=Escherichia coli (strain K12) OX=83333 GN=xdhD PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+YAEH_ECOLI	UPF0325 protein YaeH OS=Escherichia coli (strain K12) OX=83333 GN=yaeH PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YAEP_ECOLI	UPF0253 protein YaeP OS=Escherichia coli (strain K12) OX=83333 GN=yaeP PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YBFE_ECOLI	Uncharacterized protein YbfE OS=Escherichia coli (strain K12) OX=83333 GN=ybfE PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YBHC_ECOLI	Putative acyl-CoA thioester hydrolase YbhC OS=Escherichia coli (strain K12) OX=83333 GN=ybhC PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	OuterMembrane
+YBJP_ECOLI	Uncharacterized lipoprotein YbjP OS=Escherichia coli (strain K12) OX=83333 GN=ybjP PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YCAR_ECOLI	UPF0434 protein YcaR OS=Escherichia coli (strain K12) OX=83333 GN=ycaR PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YCDX_ECOLI	Probable phosphatase YcdX OS=Escherichia coli (strain K12) OX=83333 GN=ycdX PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YDFZ_ECOLI	Putative selenoprotein YdfZ OS=Escherichia coli (strain K12) OX=83333 GN=ydfZ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YDGA_ECOLI	Protein YdgA OS=Escherichia coli (strain K12) OX=83333 GN=ydgA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane
+YDHF_ECOLI	Oxidoreductase YdhF OS=Escherichia coli (strain K12) OX=83333 GN=ydhF PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YEDD_ECOLI	Uncharacterized lipoprotein YedD OS=Escherichia coli (strain K12) OX=83333 GN=yedD PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YFBU_ECOLI	UPF0304 protein YfbU OS=Escherichia coli (strain K12) OX=83333 GN=yfbU PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YFCZ_ECOLI	UPF0381 protein YfcZ OS=Escherichia coli (strain K12) OX=83333 GN=yfcZ PE=3 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YFEX_ECOLI	Dye-decolorizing peroxidase YfeX OS=Escherichia coli (strain K12) OX=83333 GN=yfeX PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YGGE_ECOLI	Uncharacterized protein YggE OS=Escherichia coli (strain K12) OX=83333 GN=yggE PE=4 SV=1 UPId=UP000000625 PPId=UP000000625	Periplasmic
+YHFA_ECOLI	Protein YhfA OS=Escherichia coli (strain K12) OX=83333 GN=yhfA PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YIBT_ECOLI	Uncharacterized protein YibT OS=Escherichia coli (strain K12) OX=83333 GN=yibT PE=4 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YICC_ECOLI	UPF0701 protein YicC OS=Escherichia coli (strain K12) OX=83333 GN=yicC PE=1 SV=2 UPId=UP000000625 PPId=UP000000625	Cytoplasmic
+YJBJ_ECOLI	UPF0337 protein YjbJ OS=Escherichia coli (strain K12) OX=83333 GN=yjbJ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YJBR_ECOLI	Uncharacterized protein YjbR OS=Escherichia coli (strain K12) OX=83333 GN=yjbR PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YNCE_ECOLI	Uncharacterized protein YncE OS=Escherichia coli (strain K12) OX=83333 GN=yncE PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YNFB_ECOLI	UPF0482 protein YnfB OS=Escherichia coli (strain K12) OX=83333 GN=ynfB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+YTFJ_ECOLI	Uncharacterized protein YtfJ OS=Escherichia coli (strain K12) OX=83333 GN=ytfJ PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+ZAPB_ECOLI	Cell division protein ZapB OS=Escherichia coli (strain K12) OX=83333 GN=zapB PE=1 SV=1 UPId=UP000000625 PPId=UP000000625	Unknown
+ZIPA_ECOLI	Cell division protein ZipA OS=Escherichia coli (strain K12) OX=83333 GN=zipA PE=1 SV=3 UPId=UP000000625 PPId=UP000000625	CytoplasmicMembrane

@@ -8,3 +8,7 @@ wget https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase
 
 mkdir reference
 gunzip UP000000625.fasta.gz && mv UP000000625.fasta ./reference
+
+# extract just the contig IDs for downstream protein identification
+cat reference/UP000000625.fasta |grep '>' > ./reference/IDs.txt
+

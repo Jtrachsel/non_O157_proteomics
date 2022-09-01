@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MaxQuantParams xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <fastaFiles>
+      <FastaFileInfo>
+         <fastaFilePath>/home/Julian.Trachsel/Indira/non_O157/reference/UP000000625.fasta</fastaFilePath>
+         <identifierParseRule>>([^\s]*)</identifierParseRule>
+         <descriptionParseRule>>(.*)</descriptionParseRule>
+         <taxonomyParseRule></taxonomyParseRule>
+         <variationParseRule></variationParseRule>
+         <modificationParseRule></modificationParseRule>
+         <taxonomyId></taxonomyId>
+      </FastaFileInfo>
    </fastaFiles>
    <fastaFilesProteogenomics>
    </fastaFilesProteogenomics>
@@ -126,8 +135,8 @@
    <smtpHost></smtpHost>
    <emailFromAddress></emailFromAddress>
    <fixedCombinedFolder>/home/Julian.Trachsel/Indira/non_O157/maxquant_results</fixedCombinedFolder>
-   <fullMinMz>-1.79769313486232E+308</fullMinMz>
-   <fullMaxMz>1.79769313486232E+308</fullMaxMz>
+   <fullMinMz>-1.79589544172745E+308</fullMinMz>
+   <fullMaxMz>1.79589544172745E+308</fullMaxMz>
    <sendEmail>False</sendEmail>
    <ionCountIntensities>False</ionCountIntensities>
    <verboseColumnHeaders>False</verboseColumnHeaders>
@@ -165,32 +174,32 @@
       <string>/home/Julian.Trachsel/Indira/non_O157/Indira-M-raw/Post1-M.raw</string>
    </filePaths>
    <experiments>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-L-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
-      <string>Indira-M-raw</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>lactation</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
+      <string>maintenance</string>
    </experiments>
    <fractions>
       <short>1</short>

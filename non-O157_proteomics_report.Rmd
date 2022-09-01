@@ -1,0 +1,37 @@
+---
+title: "E. coli non-O157 proteomics"
+author: "Julian Trachsel"
+date: '2022-08-26'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview  
+
+### Limitations  
+
+Difficult experiment to extract reliable meaning from. This is different from the O157 only experiment.  There, the strains used were all O157:H7, here each strain is a different serotype. This further complicates the analysis.
+Protein Identification. 
+LC-MSMS proteomics identify only a subset of the total peptides/proteins in the run with a large bias towards the most abundant peptides/proteins.  Because these LC-MSMS runs were iTRAQ labeled pools of 6 different biological samples the detected peptides/proteins will likely be only those peptides/proteins present in all strains and expressed under both vivo and vitro conditions.  This makes it difficult to investigate strain/serotype level differences because we do not detect proteins that are not detected in all strains/serotypes across both in-vivo and in-vitro conditions.  
+
+
+
+1. Variability.  We expect strains of the same serotype to behave more similarly than strains of different serotypes.  Because 
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
