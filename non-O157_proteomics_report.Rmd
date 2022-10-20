@@ -5,33 +5,241 @@ date: '2022-08-26'
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
 ```
 
-## Overview  
+##  {.tabset}
 
-### Limitations  
+### Limitations
 
-Difficult experiment to extract reliable meaning from. This is different from the O157 only experiment.  There, the strains used were all O157:H7, here each strain is a different serotype. This further complicates the analysis.
-Protein Identification. 
-LC-MSMS proteomics identify only a subset of the total peptides/proteins in the run with a large bias towards the most abundant peptides/proteins.  Because these LC-MSMS runs were iTRAQ labeled pools of 6 different biological samples the detected peptides/proteins will likely be only those peptides/proteins present in all strains and expressed under both vivo and vitro conditions.  This makes it difficult to investigate strain/serotype level differences because we do not detect proteins that are not detected in all strains/serotypes across both in-vivo and in-vitro conditions.  
+#### **Summary of limitations**
+
+This is a difficult experiment to extract reliable meaning from. Different from the O157 only experiment because there the strains used were all O157:H7, here each strain is a different serotype. This further complicates the analysis.
+
+I suggest we frame this as a hypothesis generating bit of work. It identifies some interesting proteins to follow up with. These data probably wouldn't stand on their own as a publication but could play a role as proof of expression in-vivo in the rumen and be a complement to other observations or data.
+
+#### **Experimental design**
+
+-   Since this study has the same design as the "O157:H7 study" the same limitations on normalization techniques exist. Because the LC-MSMS run variable is confounded with the diet variable, any normalization to correct for 'run' bias will remove the diet effect as well. If we don't correct for between run variation we will incorrectly assign this variation to the diets.
+
+-   We attempt to compare diets very broadly by using relative iBAQ values for each protein. This has its limitations as we essentially only have 1 sample from each diet that is a pool of the protein expression of 3 different serotypes. Therefore it will be very hard to discuss any specifics regarding the behavior of different serotypes. At best this could be a high level snapshot of broadly how STEC respond to different host diets in the rumen.
+
+-   The iBAQ analysis will have its biases too. Some of the proteins only detected from one diet will truly be differences related to the local environmental conditions the *E. coli* are experiencing. However, some of the proteins only detected in one run or or the other may be an artifact of being on different LC-MSMS runs. Even if you run the same sample across multiple different LC-MSMS runs, you may get proteins detected only in one run. This effect is most likely for lowly expressed proteins, as the highly expressed proteins are likely to be present across all runs.
+
+Using the iTRAQ labels to compare in-vitro and in-vivo conditions is possible but also exhibits some issues.
+
+#### **Bias towards common proteins**
+
+-   LC-MSMS proteomics identify only a subset of the total peptides/proteins in the run with a large bias towards the most abundant peptides/proteins. Because these LC-MSMS runs were iTRAQ labeled pools of 6 different biological samples the detected peptides/proteins will likely be only those peptides/proteins present in all strains and expressed under both vivo and vitro conditions. This makes it difficult to investigate strain/serotype level differences because we do not detect proteins that are not detected in all strains/serotypes across both in-vivo and in-vitro conditions.\
+-   Because we are generally only examining the most commonly expressed proteins across a diverse set of strains and conditions, and we have a low N for statistical testing, this makes it difficult to identify differentially abundant proteins in these data. This is reflected in the low number of statistically significant proteins in the iTRAQ data.
+
+#### **Low N makes normalizing methods less effective**
+
+-   The larger number of samples you have the more information you have to correct biases related to factors like iTRAQ label, peptide, run etc. ANOVA based methods that are commonly used may not have enough information to be effective and it's difficult to understand if in-vitro vs in-vivo differences are due to a 'sample prep / batch' bias or are real biological differences.
+
+### **Methods**
+
+#### **Protein identification**  
+
+MaxQuant (cite) was used for peptide and protein identification, protein iBAQ quantification, and reporter ion intensity quantification. The Uniprot E. coli pan proteome (accession) was used as the search database. The parameter file describing all MaxQuant parameters used for these identifications is available. Only proteins identified by more than one peptide with Q values less than 0.05 are considered for these analyses.
+
+#### **iBAQ methods**: {.tabset}  
+  
+##### Description  
+
+iBAQ values comparing the abundance of proteins between the two diets were transformed into relative iBAQ (riBAQ) values. Each protein is represented by a single riBAQ value within each diet. To detect proteins which were differentially abundant within each diet the log2FoldChange was calculated by: log2(lact_riBAQ / maint_riBAQ). Proteins with an absolute log2FoldChange of greater than 1 were considered differentially abundant.  
+  
+##### Code    
+ 
+  
+```{r, code = readLines("./scripts/02_iBAQ.R"), message=FALSE, warning=FALSE}
 
 
+```
+  
+  
+#### **iTRAQ methods**: {.tabset}  
 
-1. Variability.  We expect strains of the same serotype to behave more similarly than strains of different serotypes.  Because 
+##### Description  
+Two different methods were tested to normalize reporter ion intensities.
+
+NOMAD, [Normalization of mass spectrometry data](https://pubmed.ncbi.nlm.nih.gov/29174395/), was used to normalize peptide reporter ion intensities and aggregate peptide reporter ion intensities to protein level intensities. This type of normalization is similar to what can be performed in Scaffold.
+
+In addition, centered log ratios (clr) were used to normalize aggregated protein intensities. This is a more general normalization that can be performed on many different '-omics' data. See [A field guide for the compositional analysis of any-omics data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6755255/).  
+
+Differentially abundant proteins between in-vivo and in-vitro conditions were determined using T-tests and P values were corrected by the FDR method.  
+
+###### **IMPORTANT!!**  
+  
+iTRAQ reporters 1, 2, and 3 were assumed to be the in-vivo condition.  
+iTRAQ reporters 4, 5, and 6 were assumed to be the in-vitro condition.  
+
+If this is incorrect, the group labels in this report are reversed.  
+  
+<br><br><br>  
+  
+##### **Table S1:Experimental Design used in these analyses**  
+  
+```{r, echo=FALSE}
+  
+exp_design_tibble %>%
+  kable() %>% 
+  kable_styling(full_width = F, 
+                bootstrap_options = 'striped',
+                position = 'left')
+```
+  
+  <br><br>  
+  
+##### Code  
+ 
+ 
+  
+```{r, code = readLines("./scripts/03_iTRAQ.R"), message=FALSE, warning=FALSE, eval=FALSE}
+
+```
+  
+<br><br>  
+  
+### **iBAQ results** {.tabset}
+  
+  
+#### **Overview**
+  
+##### **Table 1: Detected proteins**  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
 
-```{r cars}
-summary(cars)
+T1 %>%
+  kable() %>%
+  kable_styling(bootstrap_options = 'striped', 
+                full_width = F,
+                position = 'left')
+```  
+
+##### **Table 2: Differentially abundant proteins**  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+T2 %>% kable() %>% 
+  kable_styling(bootstrap_options = 'striped',
+                full_width = F, 
+                position = 'left')
+```  
+  
+<br><br><br><br>  
+  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+p1
 ```
 
-## Including Plots
+<br><br>  
 
-You can also embed plots, for example:
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+p2
+```
+  
+<br><br>  
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+p3
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<br><br><br><br>  
+  
+  
+  
+#### **Lactation Enriched**  
+
+##### **Membrane Associated Proteins**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+T3 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```
+  
+##### **All Proteins**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+T4 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```  
+  
+#### **Maintenance Enriched**  
+
+##### **Membrane Associated Proteins**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+T5 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```
+  
+##### **All Proteins**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+T6 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```  
+  
+### **iTRAQ results** {.tabset}
+
+#### **Maintenance results** {.tabset}
+
+##### **NOMAD normalization**  
+
+-   table:
+
+    -   Total prots\
+    -   Num enriched in in-vivo\
+    -   Num enriched in in-vitro\
+    -   Num not different
+
+-   descriptive table of diffabund
+
+-   multivariate results
+
+##### **clr normalization**  
+
+-   table:
+
+    -   Total prots\
+    -   Num enriched in in-vivo\
+    -   Num enriched in in-vitro\
+    -   Num not different
+
+-   descriptive table of diffabund
+
+-   multivariate results
+
+#### **Lactation results** {.tabset}
+
+##### **NOMAD normalization**
+
+-   table:
+
+    -   Total prots\
+    -   Num enriched in in-vivo\
+    -   Num enriched in in-vitro\
+    -   Num not different
+
+-   descriptive table of diffabund
+
+-   multivariate results
+
+##### **clr normalization**  
+
+-   table:
+
+    -   Total prots\
+    -   Num enriched in in-vivo\
+    -   Num enriched in in-vitro\
+    -   Num not different
+
+-   descriptive table of diffabund
+
+-   multivariate results
+
+## 
+
+>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+
+  
+  

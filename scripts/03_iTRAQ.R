@@ -3,17 +3,16 @@ library(vegan)
 library(broom)
 library(NOMAD)
 
-##########
-
-
-
+# function for running tests on clr normalized data
 run_tests <- 
   function(matrix){
+    # browser()
     tst <- 
       matrix %>%
       as.data.frame() %>% 
       rownames_to_column(var='ID') %>% 
       separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
+      mutate(condition=factor(condition, levels = c('vitro', 'vivo'))) %>% 
       pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
       group_by(accno) %>% 
       nest() %>% 
@@ -23,15 +22,47 @@ run_tests <-
       unnest(TTEST) %>% 
       ungroup() %>% 
       mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
-      arrange(p.value)
+      arrange(estimate)
     return(tst)
   }
 
+# function for running NOMAD normalization and ttests
+NOMAD_diff_expression_tests <- 
+  function(long_peptides){
+    
+    NOMAD_NORM <- nomadNormalization(y=long_peptides$Abundance, x=long_peptides, factors = list('Peptide', 'iTRAQ'))
+    nomad_proteins <- nomadAssembleProteins(NOMAD_NORM$y, NOMAD_NORM$x)
+    
+    TESTS <- 
+      nomad_proteins$scores %>% 
+      as.data.frame() %>% 
+      rownames_to_column(var='accno') %>% 
+      pivot_longer(cols = -accno, values_to = 'intensity') %>% 
+      mutate(reporter=sub('Run1_iTRAQ','',name),
+             condition=ifelse(reporter %in% c(1,2,3), 'vivo', 'vitro'), 
+             condition=factor(condition, levels = c('vitro', 'vivo')),
+             strain=case_when(
+               reporter %in% c(1,4) ~'strain1', 
+               reporter %in% c(2,5) ~'strain2', 
+               reporter %in% c(3,6) ~'strain3'
+             )) %>% 
+      group_by(accno) %>%
+      mutate(VAR=var(intensity)) %>% 
+      filter(VAR != 0) %>%#pull(accno) %>% unique()
+      nest() %>% 
+      mutate(TTEST=map(.x=data,
+                       .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
+      select(-data) %>% 
+      unnest(TTEST) %>% 
+      ungroup() %>% 
+      mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
+      arrange(estimate)
+    return(TESTS)
+  }
 
 
-
-# maxquant protein groups
-# to only consider peptides belonging to proteins that make the cutoffs
+# output of maxquant, protein groups
+# filtered to only consider proteins that make the cutoffs
 
 PG <- 
   read_tsv('output/protein_groups_cleaned.tsv') %>% 
@@ -42,6 +73,7 @@ PG <-
 valid_accnos <- PG %>% pull(accno)
 ##########
 
+# Peptide level intensities for NOMAD 
 ALL_PEPTIDES <- read_tsv('maxquant_results/combined/txt/peptides.txt')
 
 ALL_PEPTIDES <-
@@ -81,7 +113,8 @@ protein_summary <-
   group_by(Run,Protein) %>%
   summarise(num_peptides=sum(length(unique(Peptide))), .groups = 'drop')
 
-protein_summary %>% 
+run_summary <- 
+  protein_summary %>% 
   filter(num_peptides >1) %>% 
   group_by(Run) %>%
   summarise(tot_proteins=sum(length(unique(Protein))))
@@ -96,114 +129,57 @@ unique_proteins <-
             both=sum((Protein[Run == 'lactation'] %in% Protein[Run == 'maintenance']))) %>% 
   pivot_longer(cols=everything(),names_to = 'Run', values_to = 'unique_proteins')
 
+### USE THIS TABLE
+# unique_proteins %>% add_row(Run='total', unique_proteins=sum(unique_proteins$unique_proteins))
 
-unique_proteins %>% add_row(Run='total', unique_proteins=sum(unique_proteins$unique_proteins))
-
-# tot proteins detected, 
-# Tot_prot_detected <- nrow(protein_summary)
-# tot proteins detected with > 1 peptide
-
-# Tot_prot_mult_peptides <- 
-  # nrow(protein_summary %>% filter(num_peptides > 1))
-#####
 
 lact_peptides <- 
   LONG_PEPTIDES %>%
   filter(Run == 'lactation' & Abundance > 0) %>%
+  # filter(Run == 'lactation') %>% 
   mutate(Run=1)
 
 
 maint_peptides <-
   LONG_PEPTIDES %>%
   filter(Run == 'maintenance'& Abundance > 0) %>%
+  # filter(Run == 'lactation') %>% 
   mutate(Run=1)
 
-NOMAD_diff_expression_tests <- 
-  function(long_peptides){
-  
-  NOMAD_NORM <- nomadNormalization(y=long_peptides$Abundance, x=long_peptides, factors = list('Peptide', 'iTRAQ'))
-  nomad_proteins <- nomadAssembleProteins(NOMAD_NORM$y, NOMAD_NORM$x)
-  
-  TESTS <- 
-    nomad_proteins$scores %>% 
-    as.data.frame() %>% 
-    rownames_to_column(var='accno') %>% 
-    pivot_longer(cols = -accno, values_to = 'intensity') %>% 
-    mutate(reporter=sub('Run1_iTRAQ','',name),
-           condition=ifelse(reporter %in% c(1,2,3), 'vivo', 'vitro'), 
-           condition=factor(condition, levels = c('vitro', 'vivo')),
-           strain=case_when(
-             reporter %in% c(1,4) ~'strain1', 
-             reporter %in% c(2,5) ~'strain2', 
-             reporter %in% c(3,6) ~'strain3'
-           )) %>% 
-    group_by(accno) %>%
-    mutate(VAR=var(intensity)) %>% 
-    filter(VAR != 0) %>%#pull(accno) %>% unique()
-    nest() %>% 
-    mutate(TTEST=map(.x=data,
-                     .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
-    select(-data) %>% 
-    unnest(TTEST) %>% 
-    ungroup() %>% 
-    mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
-    arrange(p.value)
-  return(TESTS)
-}
+
 
 LACT_TESTS <- NOMAD_diff_expression_tests(long_peptides = lact_peptides)
 MAINT_TESTS <- NOMAD_diff_expression_tests(long_peptides = maint_peptides)
 
 
-LACT_TESTS %>%
+p_NOMAD_LACT_HIST <- 
+  LACT_TESTS %>%
   # filter(p.value < 0.05) %>%
   ggplot(aes(x=estimate, fill=ifelse(p.value < 0.05, T, F))) +
-  geom_histogram()
+  annotate(x=2, y=50, geom='label', label='Enriched in vivo')+
+  annotate(x=-2, y=50, geom='label', label='Enriched in vitro')+
+  geom_histogram() + xlim(-3,3)+
+  geom_vline(xintercept = 0) + 
+  labs(y='count', 
+       fill='P < 0.05')+
+  theme(legend.position = 'bottom')
 
-MAINT_TESTS %>% 
+p_NOMAD_MAINT_HIST <- 
+  MAINT_TESTS %>% 
   # filter(p.value < 0.05) %>%
-  ggplot(aes(x=estimate)) +
-  geom_histogram()
-
+  ggplot(aes(x=estimate, fill=ifelse(p.value < 0.05, T, F))) +
+  annotate(x=2, y=50, geom='label', label='Enriched in vivo')+
+  annotate(x=-2, y=50, geom='label', label='Enriched in vitro')+
+  geom_histogram() + xlim(-3,3)+
+  geom_vline(xintercept = 0) + 
+  labs(y='count', 
+       fill='P < 0.05')+
+  theme(legend.position = 'bottom')
 # All 'sigs' are more abundant in the vivo condition in both the lact and maint diets
 
 
 
 # This section for t.tests with other normalization techniques
-
-
-
-
-
-# lact_iTRAQ_norm <- 
-#   t(lact_nomad_proteins$scores) %>%
-#   as.data.frame() %>%
-#   rownames_to_column(var='ID') %>% 
-#   as_tibble() %>% 
-#   mutate(ID=sub('Run1_iTRAQ','',ID),
-#          strain=case_when(
-#            ID %in% c(1,4)   ~ 'strain1', 
-#            ID %in% c(2,5)   ~ 'strain2', 
-#            ID %in% c(3,6)   ~ 'strain3'), 
-#          condition=case_when(
-#            ID %in% c(1:3) ~ 'vivo', 
-#            ID %in% c(4:6) ~ 'vitro'
-#          )) %>% 
-#   select(strain, condition, everything(), -ID)
-# 
-# lact_iTRAQ_norm_mat <- lact_iTRAQ_norm %>% select(-strain, -condition) %>% as.matrix()
-# 
-# rowSums(lact_iTRAQ_norm_mat)
-# colSums(lact_iTRAQ_norm_mat)
-# 
-# metaMDS(lact_iTRAQ_norm_mat, )
-# adonis2(method='euclidean',lact_iTRAQ_norm_mat~strain + condition, data = lact_iTRAQ_norm )
-
-# rownames(nomad_proteins$scores)[!rownames(nomad_proteins$scores) %in% PG$accno]
-###
-
-
-PG$Peptides %>% hist(breaks=100)
 
 tibble(strain=paste0('Strain', rep(c(1:3),4)), 
        condition=rep(c(rep('vivo', 3), rep('vitro', 3)),2), 
@@ -242,25 +218,25 @@ iTRAQ <-
          )) %>% 
   ungroup() 
   
-iTRAQ %>% 
-  ggplot(aes(x=reporter, y=log_intensity, fill=condition)) + 
-  geom_col(color='black') + 
-  facet_wrap(~treatment)
+# iTRAQ %>% 
+#   ggplot(aes(x=reporter, y=log_intensity, fill=condition)) + 
+#   geom_col(color='black') + 
+#   facet_wrap(~treatment)
 
-iTRAQ %>% 
-  ggplot(aes(x=reporter, y=rel_intensity, fill=condition)) + 
-  geom_col(color='black') + 
-  facet_wrap(~treatment)
+# iTRAQ %>% 
+#   ggplot(aes(x=reporter, y=rel_intensity, fill=condition)) + 
+#   geom_col(color='black') + 
+#   facet_wrap(~treatment)
 
 # this shows us that within each MSMS run we only dectect proteins that
 # were detectable in all strains across both in-vivo and in-vitro conditions.
-iTRAQ %>%
-  group_by(treatment, accno) %>% 
-  summarise(ANY=any(intensity == 0), 
-            ALL=all(intensity == 0)) %>% 
-  ungroup() %>% 
-  mutate(ANY_NOT_ALL=ANY & !ALL) %>% 
-  filter(ANY_NOT_ALL)
+# iTRAQ %>%
+#   group_by(treatment, accno) %>% 
+#   summarise(ANY=any(intensity == 0), 
+#             ALL=all(intensity == 0)) %>% 
+#   ungroup() %>% 
+#   mutate(ANY_NOT_ALL=ANY & !ALL) %>% 
+#   filter(ANY_NOT_ALL)
 
 ###
 
@@ -332,13 +308,31 @@ all_tests <-
   bind_rows(raw_tests, nomad_tests,clr_tests, rab_tests, log_rab_tests, log_tests) %>% 
   group_by(accno) %>% 
   mutate(MEAN_ORDER=mean(order), 
-         ref_order=order[method=='nomad'])
+         ref_order=order[method=='clr']) %>% 
+  mutate(SIG=ifelse(p.value < 0.05, T, F))
+
+# 
+# 
+# all_tests <- 
+#   bind_rows(raw_tests, nomad_tests,clr_tests, rab_tests, log_rab_tests, log_tests) %>% 
+#   group_by(accno) %>% 
+#   mutate(MEAN_ORDER=mean(order), 
+#          ref_order=order[method=='nomad'])
 
 #
 all_tests %>% 
-  ggplot(aes(x=order, y=ref_order, fill=method)) + 
+  ggplot(aes(x=order, y=ref_order, fill=SIG,)) + 
   geom_point(shape=21) + 
-  facet_wrap(~method)
+  facet_wrap(~method+SIG)
+
+all_tests %>% 
+  ggplot(aes(x=estimate, y=p.value, fill=SIG,)) + 
+  geom_point(shape=21) + 
+  facet_wrap(~method+SIG, scales = 'free')
+
+all_tests %>% ggplot(aes(x=estimate, fill=SIG))+geom_histogram()+
+  facet_wrap(~method, scales = 'free') + 
+  geom_vline(xintercept = 0)
 
 
 META <- 
@@ -357,66 +351,66 @@ META <-
   as.data.frame() %>%
   rownames_to_column(var='ID') %>% 
   left_join(META)
-
+library(ggrepel)
 
 NMDS_plot <- 
   META %>%  
   ggplot(aes(x=MDS1, y=MDS2, fill=condition, label=strain)) +
-  # geom_point()+
-  geom_label() +
+  geom_point()+
+  geom_label_repel() +
   theme_bw() + 
   lims(x=c(-8,8), y=c(-6,6))
 
 adonis_results <- adonis2(method = 'euclidean',data = META, formula = iTRAQ_L_mat_clr ~ strain * condition)
 
-tst_clr <- 
-  iTRAQ_L_mat_clr %>%
-  as.data.frame() %>% 
-  rownames_to_column(var='ID') %>% 
-  separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
-  pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
-  group_by(accno) %>% 
-  nest() %>% 
-  mutate(TTEST=map(.x=data,
-                   .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
-  select(-data) %>% 
-  unnest(TTEST) %>% 
-  ungroup() %>% 
-  mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
-  arrange(p.value)
-
-tst_log_ratios <- 
-  iTRAQ_L_mat_log_ratio %>%
-  as.data.frame() %>% 
-  rownames_to_column(var='ID') %>% 
-  separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
-  pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
-  group_by(accno) %>% 
-  nest() %>% 
-  mutate(TTEST=map(.x=data,
-                   .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
-  select(-data) %>% 
-  unnest(TTEST) %>% 
-  ungroup() %>% 
-  mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
-  arrange(p.value)
-
-tst_raw_log <- 
-  iTRAQ_L_mat_log %>%
-  as.data.frame() %>% 
-  rownames_to_column(var='ID') %>% 
-  separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
-  pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
-  group_by(accno) %>% 
-  nest() %>% 
-  mutate(TTEST=map(.x=data,
-                   .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
-  select(-data) %>% 
-  unnest(TTEST) %>% 
-  ungroup() %>% 
-  mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
-  arrange(p.value)
-tst_raw_log$estimate %>% hist()
+# tst_clr <- 
+#   iTRAQ_L_mat_clr %>%
+#   as.data.frame() %>% 
+#   rownames_to_column(var='ID') %>% 
+#   separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
+#   pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
+#   group_by(accno) %>% 
+#   nest() %>% 
+#   mutate(TTEST=map(.x=data,
+#                    .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
+#   select(-data) %>% 
+#   unnest(TTEST) %>% 
+#   ungroup() %>% 
+#   mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
+#   arrange(p.value)
+# 
+# tst_log_ratios <- 
+#   iTRAQ_L_mat_log_ratio %>%
+#   as.data.frame() %>% 
+#   rownames_to_column(var='ID') %>% 
+#   separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
+#   pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
+#   group_by(accno) %>% 
+#   nest() %>% 
+#   mutate(TTEST=map(.x=data,
+#                    .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
+#   select(-data) %>% 
+#   unnest(TTEST) %>% 
+#   ungroup() %>% 
+#   mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
+#   arrange(p.value)
+# 
+# tst_raw_log <- 
+#   iTRAQ_L_mat_log %>%
+#   as.data.frame() %>% 
+#   rownames_to_column(var='ID') %>% 
+#   separate(ID, into=c('strain', 'condition'),remove = FALSE) %>% 
+#   pivot_longer(names_to = 'accno', values_to = 'intensity', -c(ID, strain, condition)) %>% 
+#   group_by(accno) %>% 
+#   nest() %>% 
+#   mutate(TTEST=map(.x=data,
+#                    .f=~t.test(formula=intensity ~ condition, data=.x) %>% tidy())) %>% 
+#   select(-data) %>% 
+#   unnest(TTEST) %>% 
+#   ungroup() %>% 
+#   mutate(FDR=p.adjust(p.value, method = 'fdr')) %>% 
+#   arrange(p.value)
+# tst_raw_log$estimate %>% hist()
 
 
 #########
@@ -478,7 +472,7 @@ tst <-
   mutate(FDR=p.adjust(p.value, 'fdr')) %>% 
   arrange(FDR)
   tst$method
-t.test(x=tst$data[[1]]$vivo, y=tst$data[[1]]$vitro, paired = T) %>% tidy()
+# t.test(x=tst$data[[1]]$vivo, y=tst$data[[1]]$vitro, paired = T) %>% tidy()
 
 iTRAQ_L %>% group_by(accno) %>% nest() %>% 
 mutate(lms=map(.x = data, ~lm(data = .x, formula=rel_intensity~condition)), 
@@ -504,9 +498,6 @@ iTRAQ_M_res <-
   filter(!is.nan(p.value)) %>% 
   mutate(FDR=p.adjust(p.value, 'fdr')) %>% 
   arrange(FDR)
-
-t.test()
-
 
 ######## multivariate analyses #########
 # relative abundance, bray curtis dissimilarities
