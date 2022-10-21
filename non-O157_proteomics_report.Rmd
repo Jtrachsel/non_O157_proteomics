@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(kableExtra)
+library(ggrepel)
 ```
 
 ##  {.tabset}
@@ -97,7 +98,7 @@ exp_design_tibble %>%
  
  
   
-```{r, code = readLines("./scripts/03_iTRAQ.R"), message=FALSE, warning=FALSE, eval=FALSE}
+```{r, code = readLines("./scripts/03_iTRAQ.R"), message=FALSE, warning=FALSE}
 
 ```
   
@@ -182,61 +183,131 @@ T6 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 
 #### **Maintenance results** {.tabset}
 
-##### **NOMAD normalization**  
+##### **Overview**  
+  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
 
--   table:
+p_maint_tests
 
-    -   Total prots\
-    -   Num enriched in in-vivo\
-    -   Num enriched in in-vitro\
-    -   Num not different
+maint_multivariate[[1]] + ggtitle('Maintenance multivariate similarity')
 
--   descriptive table of diffabund
 
--   multivariate results
 
-##### **clr normalization**  
+``` 
+  
+  
+##### **Enriched in-vivo** {.tabset}
+  
+###### **clr normalization**  
 
--   table:
 
-    -   Total prots\
-    -   Num enriched in in-vivo\
-    -   Num enriched in in-vitro\
-    -   Num not different
+```{r, echo=FALSE, warning=FALSE}
 
--   descriptive table of diffabund
+CLR_MAINT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
 
--   multivariate results
+  
+###### **NOMAD normalization**  
+  
+```{r, echo=FALSE, warning=FALSE}
 
-#### **Lactation results** {.tabset}
+NOMAD_MAINT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
 
-##### **NOMAD normalization**
+  
+##### **Enriched in-vitro** {.tabset}
+  
+###### **clr normalization**  
 
--   table:
+  
+```{r, echo=FALSE, warning=FALSE}
 
-    -   Total prots\
-    -   Num enriched in in-vivo\
-    -   Num enriched in in-vitro\
-    -   Num not different
+CLR_MAINT_VITRO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
+  
+  
+###### **NOMAD normalization**  
+  
+```{r, echo=FALSE, warning=FALSE}
 
--   descriptive table of diffabund
+NOMAD_MAINT_VITRO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
 
--   multivariate results
 
-##### **clr normalization**  
 
--   table:
+#### **Lactation results** {.tabset}  
 
-    -   Total prots\
-    -   Num enriched in in-vivo\
-    -   Num enriched in in-vitro\
-    -   Num not different
+##### Overview    
+  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+p_lact_tests
 
--   descriptive table of diffabund
+lact_multivariate[[1]] + ggtitle('Lactation multivariate similarity')
 
--   multivariate results
+
+
+``` 
+  
+
+##### **Enriched in-vivo** {.tabset}
+  
+###### **clr normalization**  
+
+
+```{r, echo=FALSE, warning=FALSE}
+
+CLR_LACT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
+
+  
+###### **NOMAD normalization**  
+  
+```{r, echo=FALSE, warning=FALSE}
+
+CLR_LACT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
+
+  
+##### **Enriched in-vitro** {.tabset}
+  
+###### **clr normalization**  
+
+  
+```{r, echo=FALSE, warning=FALSE}
+
+CLR_LACT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
+  
+  
+###### **NOMAD normalization**  
+  
+```{r, echo=FALSE, warning=FALSE}
+
+CLR_LACT_VIVO %>%
+  kable() %>% 
+  kable_styling(bootstrap_options = 'striped')
+```
+
+
+
 
 ## 
+
+
 
 >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
