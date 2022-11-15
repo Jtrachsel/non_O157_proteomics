@@ -1,8 +1,16 @@
 library(tidyverse)
+library(topGO)
+library(funfuns)
 
 # iBAQ
 PG <- read_tsv('output/protein_groups_cleaned.tsv')
 prot_descripts <- read_tsv('output/protein_descriptions.tsv')
+
+uniprot_annotations <- read_tsv('output/pan_0.05_annotations.tsv') %>% 
+  mutate(accno=From) %>% 
+  dplyr::select(accno, everything(), -From, -`pH dependence`)
+
+# uniprot_annotations
 # PG$Peptides
 
 iBAQ_df <- 
@@ -11,7 +19,7 @@ iBAQ_df <-
   filter(iBAQ != 0) %>% 
   filter(Peptides > 1) %>%
   filter(!(grepl('CON', accno))) %>% 
-  select(accno, contains('iBAQ')) %>%
+  dplyr::select(accno, contains('iBAQ')) %>%
   transmute(accno, 
             iBAQ_L=`iBAQ lactation`, 
             iBAQ_M=`iBAQ maintenance`) %>% 
@@ -128,29 +136,93 @@ T2 <- tribble(~category, ~'number of proteins',
         'up in maintenance',up_M_iBAQ)
 
 # membrane prots up in L  
-T3 <- sig_L_iBAQ %>% filter(both)%>%
+T3 <- 
+  sig_L_iBAQ %>%
+  mutate(across(where(is.numeric), ~signif(.x, digits = 2))) %>% 
+  mutate(description=sub('([^=]) [A-Z][A-Z]=.*','\\1',description)) %>% 
   filter(grepl('Mem', Localization))%>% 
-  select(accno, l2FC, description, Localization)
+  dplyr::select(accno, l2FC, description, Localization)
 
 
+# all prots up in L
 T4 <- sig_L_iBAQ %>% 
-  select(accno, l2FC, description, Localization)
+  mutate(across(where(is.numeric), ~signif(.x, digits = 2))) %>% 
+  mutate(description=sub('([^=]) [A-Z][A-Z]=.*','\\1',description)) %>% 
+  dplyr::select(accno, l2FC, description, Localization) 
+
+T4 %>% 
+  left_join(uniprot_annotations) %>% 
+  write_tsv('output/iBAQ_LACT.tsv')
 
 # membrane prots up in M  
-T5 <- sig_M_iBAQ %>% filter(both) %>%
+T5 <- sig_M_iBAQ %>% 
+  mutate(across(where(is.numeric), ~signif(.x, digits = 2))) %>% 
+  mutate(description=sub('([^=]) [A-Z][A-Z]=.*','\\1',description)) %>% 
   filter(grepl('Mem', Localization)) %>% 
-  select(accno, l2FC, description, Localization)
+  dplyr::select(accno, l2FC, description, Localization)
 
+# All prots up in M
 T6 <- sig_M_iBAQ %>% 
-  select(accno, l2FC, description, Localization)
+  mutate(across(where(is.numeric), ~signif(.x, digits = 2))) %>% 
+  mutate(description=sub('([^=]) [A-Z][A-Z]=.*','\\1',description)) %>% 
+  dplyr::select(accno, l2FC, description, Localization)
+
+T6 %>% 
+  left_join(uniprot_annotations) %>% 
+  write_tsv('output/iBAQ_MAINT.tsv')
+
+
+
+### GO term enrichments ###
+
+########## GO and reference STUFF ###########
+
+# GO_terms = select(GO.db, keys(GO.db, "GOID"), c("TERM", "ONTOLOGY"))
 
 
 
 
+
+
+# GO_lact <- GO_all[GO_all$accno %in% lact$accno,]  # These mappings need to contain all proteins not just sigs
+# GO_maint <- GO_all[GO_all$accno %in% maint$accno,]
+
+# write_delim(GO_lact, delim = '\t', 'lact_gene2GO.txt')
+# write_delim(GO_maint, delim = '\t', 'maint_gene2GO.txt')
+
+
+uniprot_annotations %>% 
+  dplyr::select(accno, `Gene Ontology IDs`) %>% 
+  filter(!is.na(`Gene Ontology IDs`)) %>% 
+  transmute(accno, GO_ID=gsub('; ', ',', `Gene Ontology IDs`)) %>% 
+  write_tsv('reference/prot_2_GO.tsv')
+
+
+Lact_GO_enrich <- 
+  bind_rows(
+  funfuns::topGO_wrapper(myInterestingGenes = T4$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'BP'),
+  funfuns::topGO_wrapper(myInterestingGenes = T4$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'CC'),
+  funfuns::topGO_wrapper(myInterestingGenes = T4$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'MF')) %>% 
+  filter(pval < 0.1) %>%
+  dplyr::select(-algorithm, -statistic) %>%
+  write_tsv('./output/Lact_GO_enrich.tsv')
+
+Maint_GO_enrich <- 
+  bind_rows(
+    funfuns::topGO_wrapper(myInterestingGenes = T6$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'BP'),
+    funfuns::topGO_wrapper(myInterestingGenes = T6$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'CC'),
+    funfuns::topGO_wrapper(myInterestingGenes = T6$accno, mapping_file = 'reference/prot_2_GO.tsv', ont = 'MF')) %>% 
+  filter(pval < 0.1) %>%
+  dplyr::select(-algorithm, -statistic) %>%
+  write_tsv('./output/Maint_GO_enrich.tsv')
+
+
+
+###
 
 exp_design_tibble <- 
-  tibble(strain=paste0('Strain', rep(c(1:3),4)), 
-         condition=rep(c(rep('vivo', 3), rep('vitro', 3)),2), 
+  tibble(strain=rep(c('O26', 'O111', 'O145'),4), 
+         condition=rep(c(rep('vitro', 3), rep('vivo', 3)),2), 
          diet=c(rep('Lact', 6), rep('maint', 6)), 
          LC_MSMS_run=c(rep('Run1',6), rep('Run2',6)), 
          iTRAQ_label=c(1:6, 1:6))

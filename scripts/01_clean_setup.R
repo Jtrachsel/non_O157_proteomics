@@ -4,12 +4,17 @@ library(Biostrings)
 usethis::use_directory('output')
 
 # read in maxquant file
-PG <- read_tsv('data/proteinGroups.txt')
+# 3 other options to use here too
 
+# PG <- read_tsv('data/proteinGroups.txt')
+# PG <- read_tsv('data/proteinGroups_targ_pep0.01_pro0.01.txt')
+# PG <- read_tsv('data/proteinGroups_targ_pep0.01_pro0.05.txt')
+PG <- read_tsv('data/proteinGroups_pan_pep0.01_pro0.05.txt')
 
 # Identify all detected proteins and cleanup names
 PG <- 
   PG %>% 
+  filter(!grepl('^CON__|^REV__',`Protein IDs`)) %>% 
   mutate(
     tmp_id=str_split(gsub('REV__tr','',`Majority protein IDs`), pattern = '\\|'), 
     first_underscore=map_int(tmp_id, ~min(grep('_', .x)))) %>%  
@@ -65,7 +70,11 @@ names(ref_fasta) %>%
   write_lines('output/detected_accnos.txt')
 
 ### add psort annotations
+# system('./scripts/run_psort.sh')
+# NEED TO RUN PSORT ON DETECTED PROTEINS FASTA
 
+# 
+#
 psort <- 
   read_tsv('output/psort_res.tsv') %>% 
   transmute(accno=SeqID, 

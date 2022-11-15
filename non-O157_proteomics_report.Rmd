@@ -13,7 +13,7 @@ library(ggrepel)
 
 ##  {.tabset}
 
-### Limitations
+### **Limitations**
 
 #### **Summary of limitations**
 
@@ -48,11 +48,11 @@ MaxQuant (cite) was used for peptide and protein identification, protein iBAQ qu
 
 #### **iBAQ methods**: {.tabset}  
   
-##### Description  
+##### **Description**  
 
 iBAQ values comparing the abundance of proteins between the two diets were transformed into relative iBAQ (riBAQ) values. Each protein is represented by a single riBAQ value within each diet. To detect proteins which were differentially abundant within each diet the log2FoldChange was calculated by: log2(lact_riBAQ / maint_riBAQ). Proteins with an absolute log2FoldChange of greater than 1 were considered differentially abundant.  
   
-##### Code    
+##### **Code**    
  
   
 ```{r, code = readLines("./scripts/02_iBAQ.R"), message=FALSE, warning=FALSE}
@@ -64,24 +64,33 @@ iBAQ values comparing the abundance of proteins between the two diets were trans
 #### **iTRAQ methods**: {.tabset}  
 
 ##### Description  
+
+**Differential abundance**  
 Two different methods were tested to normalize reporter ion intensities.
 
-NOMAD, [Normalization of mass spectrometry data](https://pubmed.ncbi.nlm.nih.gov/29174395/), was used to normalize peptide reporter ion intensities and aggregate peptide reporter ion intensities to protein level intensities. This type of normalization is similar to what can be performed in Scaffold.
+NOMAD, [Normalization of mass spectrometry data](https://pubmed.ncbi.nlm.nih.gov/29174395/), was used to normalize peptide reporter ion intensities and aggregate peptide reporter ion intensities to protein level intensities. This is an ANOVA type of normalization and is similar to what can be performed in Scaffold.
 
 In addition, centered log ratios (clr) were used to normalize aggregated protein intensities. This is a more general normalization that can be performed on many different '-omics' data. See [A field guide for the compositional analysis of any-omics data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6755255/).  
 
 Differentially abundant proteins between in-vivo and in-vitro conditions were determined using T-tests and P values were corrected by the FDR method.  
 
-###### **IMPORTANT!!**  
+-   **Essentially no proteins had FDR values < 0.05 for any method**  
   
-iTRAQ reporters 1, 2, and 3 were assumed to be the in-vivo condition.  
-iTRAQ reporters 4, 5, and 6 were assumed to be the in-vitro condition.  
+<br><br><br><br>
+  
+**Multivariate similarity**  
 
-If this is incorrect, the group labels in this report are reversed.  
+To investigate the multivariate similarity between samples, 'robust Aitchison' distances were used.  These distances were used to generate NMDS ordinations to visualize the multivariate similarities between samples.  
+
+  
+  
   
 <br><br><br>  
   
 ##### **Table S1:Experimental Design used in these analyses**  
+
+**Please confirm this is the correct experimental design**  
+  
   
 ```{r, echo=FALSE}
   
@@ -94,7 +103,7 @@ exp_design_tibble %>%
   
   <br><br>  
   
-##### Code  
+##### **Code**  
  
  
   
@@ -165,6 +174,14 @@ T3 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 T4 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 ```  
   
+  
+##### **Enriched GO terms**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+Lact_GO_enrich %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```  
+  
+  
 #### **Maintenance Enriched**  
 
 ##### **Membrane Associated Proteins**  
@@ -178,6 +195,15 @@ T5 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}  
 T6 %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 ```  
+  
+  
+##### **Enriched GO terms**  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}  
+Lact_GO_enrich %>% kable() %>% kable_styling(bootstrap_options = 'striped')
+```  
+  
+    
   
 ### **iTRAQ results** {.tabset}
 
@@ -240,12 +266,25 @@ NOMAD_MAINT_VITRO %>%
   kable() %>% 
   kable_styling(bootstrap_options = 'striped')
 ```
+  
 
+##### **Within Strain Ratios**  
+  
+-  Log2( Vivo / Vitro )  
+  - positive ratios indicate greater expression in-vivo  
+  - negative ratios indicate greater expression in-vitro  
+- Full table of all ratios for each protein available at maint_within_strains.tsv  
+
+  
+  
+```{r, fig.height=10, echo=FALSE}
+p_maint_within_strain
+```
 
 
 #### **Lactation results** {.tabset}  
 
-##### Overview    
+##### **Overview**    
   
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}  
 p_lact_tests
@@ -274,7 +313,7 @@ CLR_LACT_VIVO %>%
   
 ```{r, echo=FALSE, warning=FALSE}
 
-CLR_LACT_VIVO %>%
+NOMAD_LACT_VIVO %>%
   kable() %>% 
   kable_styling(bootstrap_options = 'striped')
 ```
@@ -287,7 +326,7 @@ CLR_LACT_VIVO %>%
   
 ```{r, echo=FALSE, warning=FALSE}
 
-CLR_LACT_VIVO %>%
+CLR_LACT_VITRO %>%
   kable() %>% 
   kable_styling(bootstrap_options = 'striped')
 ```
@@ -297,14 +336,26 @@ CLR_LACT_VIVO %>%
   
 ```{r, echo=FALSE, warning=FALSE}
 
-CLR_LACT_VIVO %>%
+NOMAD_LACT_VITRO %>%
   kable() %>% 
   kable_styling(bootstrap_options = 'striped')
 ```
 
+  
 
+##### **Within Strain Ratios**  
+  
+-  Log2( Vivo / Vitro )  
+  - positive ratios indicate greater expression in-vivo  
+  - negative ratios indicate greater expression in-vitro  
+- Full table of all ratios for each protein available at lact_within_strains.tsv  
 
-
+  
+```{r, fig.height=10,echo=FALSE}
+p_lact_within_strain
+```
+  
+  
 ## 
 
 
