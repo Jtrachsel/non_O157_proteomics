@@ -257,7 +257,7 @@ unique_proteins <-
   pivot_longer(cols=everything(),names_to = 'Run', values_to = 'unique_proteins')
 
 ### USE THIS TABLE
-# unique_proteins %>% add_row(Run='total', unique_proteins=sum(unique_proteins$unique_proteins))
+unique_proteins %>% add_row(Run='total', unique_proteins=sum(unique_proteins$unique_proteins))
 
 
 lact_peptides <- 
@@ -455,6 +455,33 @@ CLR_LACT_VITRO %>%
   left_join(uniprot_annotations, by = c('gene_name' = 'accno')) %>%
   write_tsv('output/CLR_LACT_VITRO.tsv')
 
+## for lact venn table
+
+# num up in vivo
+LACT_NUM_UP_VIVO <- nrow(CLR_LACT_VIVO)
+
+# num up in vitro 
+LACT_NUM_UP_VITRO <- nrow(CLR_LACT_VITRO)
+
+# num not different
+LACT_NOT_DIFF <- ncol(iTRAQ_L_mat) - (LACT_NUM_UP_VITRO + LACT_NUM_UP_VIVO)
+# 343
+
+# if using FDR corrected pvalues
+# all 405 proteins not different
+ncol(iTRAQ_L_mat)
+
+uncorrectedPv_lact_itraq_table <- 
+  tibble(enriched_in=c('vivo', 'vitro', 'not different'),
+       num_proteins=c(LACT_NUM_UP_VIVO, LACT_NUM_UP_VITRO, LACT_NOT_DIFF))
+
+
+correctedPv_lact_itraq_table <- 
+  tibble(enriched_in=c('vivo', 'vitro', 'not different'),
+         num_proteins=c(0, 0, ncol(iTRAQ_L_mat)))
+
+
+###
 
 
 NOMAD_LACT_VIVO <-
@@ -539,7 +566,39 @@ CLR_MAINT_VITRO %>%
   left_join(uniprot_annotations, by = c('gene_name' = 'accno')) %>%
   write_tsv('output/CLR_MAINT_VITRO.tsv')
 
+## for maint venn table
 
+nrow(CLR_MAINT_VIVO)
+nrow(CLR_MAINT_VITRO)
+
+
+## for lact venn table
+
+# num up in vivo
+MAINT_NUM_UP_VIVO <- nrow(CLR_MAINT_VIVO)
+
+# num up in vitro 
+MAINT_NUM_UP_VITRO <- nrow(CLR_MAINT_VITRO)
+
+# num not different
+MAINT_NOT_DIFF <- ncol(iTRAQ_M_mat) - (MAINT_NUM_UP_VITRO + MAINT_NUM_UP_VIVO)
+# 
+
+# if using FDR corrected pvalues
+# all 412 proteins not different
+ncol(iTRAQ_M_mat)
+
+uncorrectedPv_maint_itraq_table <- 
+  tibble(enriched_in=c('vivo', 'vitro', 'not different'),
+         num_proteins=c(MAINT_NUM_UP_VIVO, MAINT_NUM_UP_VITRO, MAINT_NOT_DIFF))
+
+
+correctedPv_maint_itraq_table <- 
+  tibble(enriched_in=c('vivo', 'vitro', 'not different'),
+         num_proteins=c(0, 0, ncol(iTRAQ_M_mat)))
+
+
+###
 
 NOMAD_MAINT_VIVO <-
   maint_all_tests %>% 

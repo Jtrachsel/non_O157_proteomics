@@ -210,6 +210,33 @@ Lact_GO_enrich %>% kable() %>% kable_styling(bootstrap_options = 'striped')
 #### **Maintenance results** {.tabset}
 
 ##### **Overview**  
+
+  
+###### Maintenance Diet, Summary table, Uncorrected P values  
+  
+- It will be difficult to get a reviewer to accept using uncorrected P values without explicitly addressing why we aren't using FDR corrections  
+  
+  
+  
+```{r, echo=FALSE}
+
+uncorrectedPv_maint_itraq_table %>% 
+  kable() %>% 
+  kableExtra::kable_styling(bootstrap_options = 'striped',full_width = F)
+
+
+```
+
+
+###### Maintenance Diet, Summary table, corrected P values  
+```{r, echo=FALSE}
+correctedPv_maint_itraq_table %>% 
+  kable() %>% 
+  kableExtra::kable_styling(bootstrap_options = 'striped',full_width = F)
+
+```
+  
+
   
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}  
 
@@ -283,8 +310,34 @@ p_maint_within_strain
 
 
 #### **Lactation results** {.tabset}  
-
+  
 ##### **Overview**    
+  
+###### Lactation Diet, Summary table, Uncorrected P values  
+  
+- It will be difficult to get a reviewer to accept using uncorrected P values without explicitly addressing why we aren't using FDR corrections   
+  
+  
+```{r, echo=FALSE}
+
+uncorrectedPv_lact_itraq_table %>% 
+  kable() %>% 
+  kableExtra::kable_styling(bootstrap_options = 'striped', full_width = F)
+
+
+```
+
+
+###### Lactation Diet, Summary table, corrected P values  
+  
+```{r, echo=FALSE}
+correctedPv_lact_itraq_table %>% 
+  kable() %>% 
+  kableExtra::kable_styling(bootstrap_options = 'striped', full_width = F)
+
+```
+  
+  
   
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}  
 p_lact_tests
